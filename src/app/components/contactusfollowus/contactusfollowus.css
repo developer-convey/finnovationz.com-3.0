@@ -1,0 +1,275 @@
+.contactus-followus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.enquiry-support-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.enquiry-section-general {
+    width: 384px;
+    height: 285px;
+    padding: 40px;
+    gap: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: Center;
+}
+
+.enquiry-section-club {
+    width: 384px;
+    height: 285px;
+    padding: 40px;
+    gap: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: Center;
+}
+
+.enquiry-header {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38.25px;
+    color: #292929;
+    text-align: center;
+}
+
+.enquiry-underline {
+    border: 1px solid #DDDDDD;
+    width: 304px;
+}
+
+.enquiry-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.enquiry-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.support-section {
+    width: 384px;
+    height: 340px;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    background: linear-gradient(130.15deg, #30C9AB 18.12%, #377BDC 107.01%);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-header {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38.25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.support-underline {
+    border: 1px solid #FFFFFF;
+    width: 304px;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.support-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
+.follow-us-container {
+    display: flex;
+    justify-content: center;
+}
+
+.follow-us-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.follow-us-header {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38.25px;
+    color: #292929;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+
+.enquiry-container {
+    display: flex;
+    justify-content: center;
+}
+
+.enquiry-box {
+    background-color: rgb(188 188 188 / 40%);
+    font-size: 14px;
+    padding: 12px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 70px;
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 450px) {
+    .enquiry-box {
+        font-size: 11px;
+        padding: 12px 15px;
+    }
+}
+
+.enquiry-icon {
+    height: 16px;
+    width: 16px;
+    margin-bottom: 3px;
+    margin-right: 4px;
+}
+
+.enquiry-text {
+    color: #000;
+    font-weight: 500;
+    font-family: "Mulish", sans-serif;
+}
+
+.enquiry-link {
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+    /* For medium-sized screens, adjust width to ensure it stays within viewport */
+    .support-section {
+        width: 300px;
+        height: 250px;
+        gap: 10px;
+    }
+
+    .enquiry-section-general,
+    .enquiry-section-club {
+        width: 300px;
+        height: 195px;
+        gap: 10px;
+    }
+    
+    .support-underline,
+    .enquiry-underline {
+        border: 1px solid #DDDDDD;
+        width: 220px;
+    }
+
+    .support-header,
+    .enquiry-header {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .enquiry-support-sections {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 20px;
+    }
+
+    .enquiry-section-general,
+    .enquiry-section-club,
+    .support-section { 
+        border-radius: 10px;
+    }
+
+    .enquiry-section-general,
+    .enquiry-section-club { 
+        height: 285px;
+        width: 384px;
+    }
+
+    .support-section {
+        height: 340px;
+        width: 384px;
+    }
+
+    .contactus-followus-container {
+        gap: 75px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .enquiry-section-general,
+    .enquiry-section-club { 
+        height: 240px;
+        width: 339px;
+    }
+
+    .support-section {
+        height: 295px;
+        width: 339px;
+    }
+
+    .contactus-followus-container {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .enquiry-section-general,
+    .enquiry-section-club { 
+        height: 200px;
+        width: 299px;
+    }
+
+    .support-section {
+        height: 255px;
+        width: 299px;
+    }
+}

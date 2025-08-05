@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+
+
+footer {
+    font-family: 'Mulish', sans-serif !important;
+    color: #646464 !;
+
+
+}
+
+footer p {
+    font-family: 'Mulish' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 27.57px !important;
+    text-align: left !important;
+    color: #646464 !important;
+
+}
+
+.footer-link-text {
+    font-family: "Mulish" !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 27.57px !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    color: #646464 !important;
+
+
+}
+
+.footer-link-text a {
+    text-decoration: none !important;
+    font-size: 14px !important;
+
+}
+
+footer {
+
+    background-image: url('/footer1.svg') !important;
+    background-size: cover;
+    background-position: top;
+    padding: 55px 0 20px !important;
+    margin-top: 40px !important;
+
+}
+
+.copy-right {
+    font-family: Mulish !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 17.57px !important;
+    letter-spacing: -0.20454545319080353px !important;
+    text-align: left !important;
+
+}
+
+.footergrid {
+    padding: 100px 0px 0px;
+}
+
+
+.headers {
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 46.59px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.my-3 p {
+    color: #646464;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .Privacy{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+@media (max-width: 768px) {
+
+    footer {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .footergrid {
+        padding: 10px 0px;
+    }
+
+    .headers {
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22.59px;
+        /* text-align: center; */
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+
+    footer p {
+        font-family: "Mulish" !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 27.57px !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+}

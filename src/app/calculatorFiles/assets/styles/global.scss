@@ -1,0 +1,35 @@
+.ant-input-number .ant-input-number-input,
+.ant-select-single.ant-select-lg.ant-select-show-arrow
+  .ant-select-selection-item {
+  color: #646464;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  
+}
+
+.ant-input-number .ant-input-number-input{
+  color: #387edb;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Mulish;
+ 
+  width: 100%;
+}
+
+.ant-select-single.ant-select-lg {
+  // height: auto !important;
+  .ant-select-selector {
+    padding: 6px 12px 6px 12px !important;
+    height: 40px !important;
+  }
+}
+.align-aaa{
+  text-align:left !important;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background: linear-gradient(269.97deg, rgba(55, 127, 219, 0.15) 0.02%, rgba(55, 127, 219, 0) 98.11%) !important;
+}
+.ant-input-number-handler-wrap {
+  display: none !important;
+}

@@ -1,0 +1,61 @@
+{
+  
+    "faq":[
+      {
+        "question":"When will the session start?        ",
+        "answer":"The session will start tonight at 7 PM and will run for ~150 mins        "
+      },
+      {
+        "question":" Do I need to bring a pen and a copy to note down things?",
+        "answer":" Ohhh yes! You need to. Because this session will have many practical steps for you to follow in real life."
+      },
+      {
+        "question":"How can I join the session?        ",
+        "answer":" Once you register, we will send you invite link on your email. Please make sure to check you update section. If not there, please check you spam folder as well."
+      }
+    ],
+    "faqmarathi":[
+      {
+        "question":"हे सेशन मराठी मधून होईल का?",
+        "answer":" हो  सेशन मराठी मधूनच होईल."
+      },
+      {
+        "question":"मी सेशन join कसे करू?",
+        "answer":" आम्ही सेशन सुरू होण्याच्या किमान 3 तास आधी तुम्हाला link whatsapp आणि registered e -mail id वर पाठवून देऊ."
+      }
+    ],
+
+    "Whydoneedthisproject":[
+      {
+        "question":"You want to build wealth and not some pennies from market"
+      },
+      {
+        "question":"You need a framework which works best in every market condition"
+
+      },
+      {
+        "question":"You don’t want to take pressure of day trading"
+      },
+      {
+        "question":"You want to find right opportunity at right time"
+      }
+    ]
+    ,
+    "Whydoneedthisprojectmarathi":[
+      {
+        "question":"तुम्हाला मार्केट मधून बक्कळ पैसा कमवायचा आहे"
+      },
+      {
+        "question":"तुम्हाला एक अशी system हवी जी कोणत्याही market conditions मध्ये तुम्हाला पैसे कमवून देईल"
+
+      },
+      {
+        "question":"तुम्हाला ट्रेडिंग चे pressure नको आहे"
+      },
+      {
+        "question":"तुम्हाला योग्य संधी योग्य वेळेवर हवी आहे"
+      }
+    ]
+   
+  }
+  

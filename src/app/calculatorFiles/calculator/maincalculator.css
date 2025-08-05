@@ -1,0 +1,243 @@
+/* .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    gap: 4%;
+    padding: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+} */
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    gap: 4%;
+    padding: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+/* .allbox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+} */
+
+.allbox {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: start; /* Ensures cards align properly at the top */
+    padding: 0px 60px;
+    row-gap: 50px;
+}
+
+/* .card-container1 {
+    background: linear-gradient(129.27deg, rgba(49, 193, 177, 0.12) 9.8%, rgba(55, 127, 219, 0.12) 101.83%);
+    box-shadow: none;
+} */
+
+
+.box-container .box {
+    /* background-color: rgb(230 240 250 / var(--tw-bg-opacity)); */
+    /* background: linear-gradient(129.27deg, rgba(49, 193, 177, 0.12) 9.8%, rgba(55, 127, 219, 0.12) 101.83%); */
+    /* background: linear-gradient(129.27deg, rgba(49, 193, 177, 0.12) 9.8%, rgba(55, 127, 219, 0.12) 101.83%); */
+    /* background: linear-gradient(129.27deg, rgba(49, 193, 177, 0.12) 9.8%, rgba(55, 127, 219, 0.12) 101.83%); */
+
+
+    border-radius: 15px;
+    /* box-shadow: 8px 8px 20px #d1d9e3, -8px -8px 20px #ffffff; */
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: left;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+
+
+
+
+}
+
+
+/* Hover effect */
+.box-container .box:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1), -4px -4px 15px rgba(255, 255, 255, 0.7); */
+}
+
+
+.box-container .icon {
+    background-color: #0d6efd;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.box-container h3 {
+    color: #333;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-align: left;
+
+
+}
+
+
+.box-container p {
+    color: #666;
+    flex-grow: 1;
+    text-align: left;
+
+
+}
+
+
+.box-container a {
+    color: #0d6efd;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+
+
+}
+
+
+@media (max-width: 1024px) {
+    /* .box-container {
+        grid-template-columns: repeat(3, 1fr);
+    } */
+}
+
+
+@media (max-width: 480px) {
+    .box-container {
+        /* grid-template-columns: 1fr;
+        padding: 10px;
+        height: 100%;
+        row-gap: 10px; */
+        /* margin-left: 11%; */
+    }
+
+
+}
+
+
+.appdownload {
+    background: linear-gradient(90deg, #30C9AB 0%, #377BDC 100%);
+    width: 90%;
+    /* Adjusted to be more flexible */
+    max-width: 1200px;
+    /* A maximum width for larger screens */
+    padding: 16px;
+    /* Increased padding for better spacing */
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+    height: 338px;
+    /* Auto height to adapt to content */
+    margin: 5% auto;
+    /* Centered and with some top margin */
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+}
+
+
+@media (min-width: 768px) {
+    .appdownload {
+        flex-direction: row;
+        align-items: center;
+    }
+    .image-wrapper {
+        width: 50%; /* Make the image wrapper 50% width */
+        position: relative;
+        left: -50%; /* Position it to the left by 50% */
+    }
+    .content-wrapper {
+        width: 50%; /* Ensure the content takes 50% */
+    }
+}
+
+.appdwtext h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .appdownload {
+        height: auto;
+    }
+    .appdwtext h2 {
+        font-size: 42px;
+        text-align: left;
+    }
+
+    .future-finance-image {
+        margin-top: -220px;
+    }
+
+    .box-container {
+        gap: 200px;
+    }
+
+}
+
+
+.appdwtext p {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    /* Center text on smaller screens */
+    margin: 8px 0;
+    /* Add some spacing */
+}
+
+
+@media (max-width: 480px) {
+    .appdownload {
+        height: 100%;
+    }
+
+
+    .appdwtext p {
+        text-align: left;
+        /* Align text to the left on larger screens */
+    }
+
+    
+}
+
+
+.appdwtext img {
+    margin: 0 auto;
+    /* Center the image on smaller screens */
+}
+

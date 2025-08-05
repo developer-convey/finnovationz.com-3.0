@@ -1,0 +1,190 @@
+.certificate{
+    background: linear-gradient(179deg, rgba(55, 131, 216, 0.12) 13.41%, rgba(49, 192, 178, 0.12) 71.04%, rgba(255, 255, 255, 0.12) 99.38%);
+    background-size: cover; 
+    padding: 86px 0px;
+}
+.certificate_img{
+    width: 312px;
+    height: 312px;
+}
+.certificate_img::after{
+    content:url('/cer_elips.svg'); /* with class ModalCarrot ??*/
+    position:relative; /*or absolute*/
+    z-index:100000; /*a number that's more than the modal box*/
+    left:-50px;
+    top:10px;
+  }
+.strip_banner span{
+    background-image: url('/strip.svg');
+    background-size: cover;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.strip_banner{
+    margin-top: 24px;
+}
+
+.strip_banner_h3{
+    font-weight: 900;
+    font-size: 32px;
+    color: black;
+}
+.achievement_p{
+    margin-bottom:16px;
+    color: #646464;
+    font-size: 24px;
+}
+.attempters_btn{
+    color: #377BDC;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 11px 18px 11px 18px;
+    border: 1px solid #377BDC;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.achievement_div{
+    border-radius: 20px;
+    background-color: white;
+    padding: 32px;
+    margin-top: 36px;
+}
+.share_text{
+    color: #646464;
+    font-size: 20px;
+}
+.fundamental h3{
+    color: #387EDB;
+    font-size: 24px;
+    font-weight: bold;
+}
+.fundamental{
+    border-radius: 20px;
+    background-color: white;
+    padding: 24px;
+    margin-top: 36px;
+}
+.wrong_answer{
+    border-radius: 20px;
+    background-color: white;
+    padding: 24px;
+    margin-top: 36px;
+}
+.wrong_answer_h3{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.wrong_answer_h3_blue{
+
+    color: #3782D9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.congratulation_trophy_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px){
+    .certificate_div, .achievement_div, .fundamental, .wrong_answer{
+        width: 900px;
+    }
+}
+@media screen and (max-width: 992px){
+    .abs_img{
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .abs_img img{
+        margin-top: 20px;
+    }
+    .achievement_div{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 769px){
+    .abs_img img{
+        width: 70%!important;
+    }
+    .achievement_div{
+        padding-bottom: 120px;
+    }
+    .fundamental{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px){
+
+    .abs_img img{
+        width: 70%!important;
+    }
+    .achievement_div{
+        padding-bottom: 120px;
+    }
+    .fundamental{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 575px){
+
+    .abs_img img{
+        width: 95%!important;
+    }
+    .achievement_div{
+        padding-bottom: 120px;
+    }
+    .fundamental{
+        margin-top: 40px;
+        padding: 15px;
+        text-align: center;
+    }
+    .fundamental h3{
+        font-size: 18px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .fundamental p{
+        font-size: 16px;
+    }
+    .wrong_answer h3, .wrong_answer p{
+        font-size: 18px;
+    }
+    .achievement_div .achievement_p{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .share_text{
+        font-size: 14px!important;
+    }
+    .wrong_answer {
+        padding: 15px;
+        text-align: center;
+    }
+    .attempters_btn{
+        font-size: 14px;
+    }
+    .strip_banner span{
+        font-size: 16px;
+    }
+    .strip_banner_h3{
+        font-size: 24px;
+    }
+    .achievement_p{
+        font-size: 16px;
+    }
+    .certificate_img{
+        width: 186px;
+        height: 233px;
+    }
+    
+}

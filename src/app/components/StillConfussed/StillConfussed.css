@@ -1,0 +1,19 @@
+.cta-form{
+    background: url(../../../../public/shape.svg) no-repeat center;
+    background-size: cover;
+    padding:0px 0;
+    margin: 100px 0 0;
+}
+@media (max-width:991px) {
+    .cta-form{
+        margin: 0;
+    }
+}
+@media (max-width:768px) {
+    .cta-form{
+        background: url(../../../../public/mobile-shape.png) no-repeat center;
+        padding: 100px 0;
+        background-size: cover;
+        margin: 20px 0;
+    }
+}

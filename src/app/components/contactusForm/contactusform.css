@@ -1,0 +1,176 @@
+.Contact-us-Form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.Contact-us-Form-container {
+    max-width: 1152px;
+    height: auto;
+    gap: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-top: 1px solid #dddddd;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    opacity: 1;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.Contact-us-Form-container .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    margin: 0px !important;
+}
+
+.Contact-us-Form-container .content .form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contact-us-Form-container .content .map {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.Contact-us-Form-container .content .map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #292929;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-description {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #656565;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-label {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-filed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 92px;
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-filed-message {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 146px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-fields-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-fields-div .contact-us-form-name {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-fields-div input:focus {
+    outline: none;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-submit {
+    width: 124px;
+    height: 42px;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #30C9AB 0%, #377BDC 100%);
+    cursor: pointer;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-submit img {
+    width: 20px;
+    height: 20px;
+}
+
+.Contact-us-Form-container .content .form .contact-us-form-title-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .Contact-us-Form-container .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Add some gap between the map and form */
+    }
+
+    .Contact-us-Form-container .content .map {
+        order: 2;
+        width: 100%;
+    }
+
+    .Contact-us-Form-container .content .form {
+        order: 1;
+        width: 100%; /* Ensure full width */
+    }
+
+    .Contact-us-Form-container .content .form .contact-us-form-submit {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .Contact-us-Form-container .content .form .contact-us-form-submit {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 20px; /* Increase padding for better touch targets */
+    }
+
+    .Contact-us-Form-container .content .form .contact-us-form-fields-div .contact-us-form-name {
+        flex-direction: column; /* Stack name fields vertically */
+        gap: 10px;
+    }
+}

@@ -1,0 +1,269 @@
+{
+  "course1": {
+      "heading": "Monsoon Sale Offer",
+      "sliderContent": [
+        {
+          "title": "FinnovationZ’s Share Market Course",
+          "duration": "37 hrs ",
+          "subtitle": "(Analyse any stock in less than 3 hours)",
+          "thumbnail": "/4courseind.webp",
+          "altText": "Fundamental Analysis Course",
+          "lesson": "38+ lessons",
+          "rating": "4.7",
+          "price": "₹9,993",
+          "btnText": "Enrol Now",
+          "btnUrl": "/courses/combo",
+          "actionUrl": "/courses/combo",
+          "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+        },
+        {
+          "title": "Advanced Combo to Master Share Market",
+          "duration": "20 hrs+",
+          "subtitle": "(Foundation Course + Fundamental Analysis 3.0)",
+          "thumbnail": "/2courseind.webp",
+          "altText": "Advanced Combo to Master Share Market",
+          "lesson": "30+ lessons",
+          "rating": "4.7",
+          "price": "₹5,493",
+          "btnText": "Enrol Now",
+          "btnUrl": "/courses/advanced-combo-to-master-share-market",
+          "actionUrl": "/courses/advanced-combo-to-master-share-market",
+          "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+        },
+      {
+        "title": "The Complete Course On Fundamental Analysis 3.0",
+        "duration": "10 hrs 29 mins",
+        "subtitle": "(Analyse any stock in less than 3 hours)",
+        "thumbnail": "/courseind.webp",
+        "altText": "Fundamental Analysis Course",
+        "lesson": "20 lessons",
+        "rating": "4.7",
+        "price": "₹3,495",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/fundamental-analysis",
+        "actionUrl": "/courses/fundamental-analysis",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      }
+    ]
+    },
+  "course2": {
+    "heading": "Most Loved Share Market Courses",
+    "sliderContent": [
+      {
+        "title": "Value Investing Cohort ",
+        "duration": "12 Weeks",
+        "subtitle": "7 Secret Strategies of Millionaire Investors",
+        "thumbnail": "/valueinvesting.webp",
+        "altText": "VIC",
+        "lesson": "12 Live Sessions | 12 Recorded Sessions",
+        "rating": "4.8",
+        "price": "₹49,999 ",
+        "btnText": "Download Brochure",
+        "btnUrl": "/courses/value-investing",
+        "actionUrl": "/courses/value-investing",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "Financial Modelling & Valuation Mentorship",
+        "duration": "3 Months",
+        "subtitle": "(3 Months Mentorship with Live & Recorded Sessions)",
+        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/FM.webp",
+        "altText": "FMVM",
+        "lesson": "12 Live Sessions | 12 Recorded Sessions",
+        "rating": "4.8",
+        "price": "₹39,999 ",
+        "btnText": "Download Brochure",
+        "btnUrl": "/courses/financial-modelling-course",
+        "actionUrl": "/courses/financial-modelling-course",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "The Complete Course On Fundamental Analysis 3.0",
+        "duration": "10 hrs 29 mins",
+        "subtitle": "(Analyse any stock in less than 3 hours)",
+        "thumbnail": "/courseind.webp",
+        "altText": "Fundamental Analysis Course",
+        "lesson": "20 lessons",
+        "rating": "4.7",
+        "price": "₹3,495",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/fundamental-analysis",
+        "actionUrl": "/courses/fundamental-analysis",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "FinnovationZ’s Share Market Course",
+        "duration": "37 hrs ",
+        "subtitle": "(Analyse any stock in less than 3 hours)",
+        "thumbnail": "/4courseind.webp",
+        "altText": "Fundamental Analysis Course",
+        "lesson": "38+ lessons",
+        "rating": "4.7",
+        "price": "₹9,993",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/combo",
+        "actionUrl": "/courses/combo",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "Advanced Combo to Master Share Market",
+        "duration": "20 hrs+",
+        "subtitle": "(Foundation Course + Fundamental Analysis 3.0)",
+        "thumbnail": "/2courseind.webp",
+        "altText": "Advanced Combo to Master Share Market",
+        "lesson": "30+ lessons",
+        "rating": "4.7",
+        "price": "₹5,493",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/advanced-combo-to-master-share-market",
+        "actionUrl": "/courses/advanced-combo-to-master-share-market",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "The Foundation Course on Indian Stock Market (Beginner)",
+        "duration": "6 hrs 30 mins",
+        "subtitle": "(Learn to find the right stocks after 1st lecture)",
+        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/updated-2.webp",
+        "altText": "Stock Market Beginner Course",
+        "lesson": "6 Lessons",
+        "rating": "4.7",
+        "price": "₹4999",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/indian-stock-market",
+        "actionUrl": "/courses/indian-stock-market",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/userss.webp"
+      },
+      {
+        "title": "The Foundation Course On Options (Beginners)",
+        "duration": "8 hrs",
+        "subtitle": "(Hedge your portfolio with options strategies)",
+        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/courses/updated-3.webp",
+        "altText": "Options Trading Course",
+        "lesson": "8 lessons",
+        "rating": 4.6,
+        "price": "₹6499",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/foundation-course-on-options",
+        "actionUrl": "/courses/foundation-course-on-options",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/optionuser.webp"
+      },
+      {
+        "title": "The Advanced Course on Mutual Funds",
+        "duration": "2 hrs",
+        "subtitle": "(Mutual Fund sahi hai, par konsa?)",
+        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/07-07-2025/Mutual+Funds/advance+course+cover.webp",
+        "altText": "Options Trading Course",
+        "lesson": "4 lessons",
+        "rating": 4.6,
+        "price": "₹3,999",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/the-advanced-course-on-mutual-funds",
+        "actionUrl": "/courses/the-advanced-course-on-mutual-funds",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/optionuser.webp"
+      },
+      {
+        "title": "FinnovationZ Finance Academy",
+        "duration": "23 hrs",
+        "subtitle": "(Only Investment You Need to Master Your Investments)",
+        "thumbnail": "/FinnovationZ Finance Academy Cover.webp",
+        "altText": "Options Trading Course",
+        "lesson": "4 modules",
+        "rating": 4.6,
+        "price": "₹19,999",
+        "btnText": "Enrol Now",
+        "btnUrl": "/courses/finnovationz-finance-academy",
+        "actionUrl": "/courses/finnovationz-finance-academy",
+        "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/optionuser.webp"
+      }
+      
+    ]
+  },
+  "trainer": {
+    "name": "",
+    "specialization": "Web Development",
+    "experience": "10+ years"
+  },
+  "Certification": {
+    "img": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-and-Option-trading-course/certificate2.webp"
+  },
+  "faq": [
+    {
+      "question": "Are these courses in Hindi or English?",
+      "answer": "Courses are primarily in Hindi, but they use English in appropriate places."
+    },
+    {
+      "question": "Are these courses pre-recorded or live?",
+      "answer": "These are pre-recorded courses with lifetime access."
+    },
+    {
+      "question": "Will I get a certificate of completion?",
+      "answer": "Yes, you will get the Certificate of Completion upon completing the course."
+    },
+    {
+      "question": "How to access these courses after payment?",
+      "answer": "After payment, you will get a login link and credentials on your WhatsApp number and mail. There you can access your courses."
+    },
+    {
+      "question": "Are these courses focused on investors or traders?  ",
+      "answer": "This course is focused on long-term investors, except for The Foundation Course On Options (Beginners) which is for Beginner Option Trader."
+    },
+    {
+      "question": " For what duration am I getting the courses?",
+      "answer": " This course comes with lifetime access."
+    },
+    {
+      "question": "Can I get a GST Invoice for this course?",
+      "answer": "Yes, you will get a GST invoice. If you need Input Tax Credit you need to provide your GST Number and contact our support team. "
+    },
+    {
+      "question": "Do these courses include technical analysis (Charts and indicators)?",
+      "answer": "These courses are designed for investors and not for traders, hence they don't need technical analysis. Except for The Foundation Course On Options (Beginners) which is for Beginner Option Trader."
+    }
+  ],
+  "clientTestimonial": [
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct1.webp",
+      "name": "Monish garach",
+      "text": "I've been following Prasad on YT and have been part of his club. I'm impressed with his knowledge and manner of communication.",
+      "rating": "4.5"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct2.webp",
+      "name": "Ravinder Singh",
+      "text": " I took the beginner and fundamental analysis course and advanced my understanding of the market. Prasad sir helped me become financially literate.",
+      "rating": "4.6"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct3.webp",
+      "name": "Harsh Kashyap",
+      "text": "Hi Prasad Sir, I completed the course, and thank you for the bonus on best MUTUAL FUNDS. I learned many new things that helped me correct my mistake of picking a stock.",
+      "rating": "4.7"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct4.webp",
+      "name": "Darshan jadhav",
+      "text": "wonderful explanation.... you are really great mentor. ur videos are very easy to understand. Salute your vision to make new generation financially literate. Thank u😊",
+      "rating": "4.5"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis/c1ct5.webp",
+      "name": "Nehal dalvi",
+      "text": " I had an amazing experience with this course because it is very well explained. The best part of this course is its recorded so that we can listen again.",
+      "rating": "4.6"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct6.webp",
+      "name": "Harish Kuyate",
+      "text": "I recently purchased Prasad sir's course on the Stock Market and I learned a lot. I would highly recommend this course who are new in stock market.",
+      "rating": "4.8"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/coures/fundamental-analysis-and-indian-stock-market-course-for-beginners/ct7.webp",
+      "name": "Ankit Singh Hooda",
+      "text": "I bought this course and found it extremely valuable. Every business personality and share market lover should buy this course. my friends also loved it.",
+      "rating": "4.7"
+    }
+  ]
+}
+
+

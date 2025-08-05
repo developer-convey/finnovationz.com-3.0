@@ -1,0 +1,164 @@
+
+/* CourseSlider css start from here */
+.sliderItem{
+    border-radius: 16px;
+background: linear-gradient(178deg, rgba(240, 244, 250, 0.90) 1.35%, #ECF7FB 26.71%, #FFF 60.46%);
+background-blend-mode: multiply;
+/* backdrop-filter: blur(182px); */
+padding: 16px;
+border: 1px solid #b0c9e736;
+box-shadow: 0 1px 2px #b0c9e7;
+position: relative;
+min-height: 495px;
+}
+
+.sliderItem a{
+    text-decoration: none;
+    /* position: relative; */
+    z-index: 9;
+    height: 100%;
+    display: block;
+}
+.sliderItem p{
+font-size: 14px;
+font-weight: 500;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+line-clamp: 1;
+-webkit-box-orient: vertical;
+text-overflow: ellipsis;
+}
+.sliderItem h3{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.sliderItem h4{
+    color: #000;
+font-size: 23px;
+font-weight: 800;
+}
+
+.sliderItem img{
+    border-radius: 10px;
+}
+
+.author_lesson_detail span,
+.reviews span {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ratingStar{
+    width: 120px!important;
+}
+.allusers{
+    width: 180px!important;
+}
+.cardfooter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+}
+.cardfooter a{
+    font-size: 12px!important;
+    padding: 9px 28px;
+    }
+    .coursebtn:after{
+        display: none;
+    }
+@media (max-width:991px) {
+    .sliderItem{
+        min-height: 535px;
+    }
+    .sliderItem img{
+        width: 15px;
+    }
+}
+
+@media (max-width:767px) {
+    .sliderItem{
+        min-height: 475px;
+    }
+    .cardfooter a{
+        padding: 9px 15px;
+    }
+}
+@media (max-width:575px) {
+    .sliderItem{
+        min-height: 100%;
+    }
+    .ratingStar{
+        width: 100px!important;
+    }
+    .cardfooter{
+        position: unset;
+    }
+    
+}
+/* CourseSlider css end here */
+
+
+/* CTA Bottom css start from here */
+
+.ctaSec{
+    padding: 140px 0 20px;
+}
+.ctabox{
+    border-radius: 24px;
+    background: linear-gradient(238deg, rgba(55, 131, 216, 0.12) 18.76%, rgba(49, 192, 178, 0.12) 72.2%);
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.ctabox h2 span{
+    color: #387EDB;
+}
+.ctaImg1{
+    width: 50.5%;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    top: 0;
+    border-radius: 24px;
+}
+@media (max-width:991px) {
+    .ctabox{
+        padding: 40px;
+    }
+    .ctabox h2{
+        font-size: 26px;
+    }
+    .ctaImg1{
+        width: 48%;
+    }
+}
+@media (max-width:767px) {
+    .ctaSec{
+        padding: 10px 0 20px;
+    }
+    .contactussec .ctabox{
+        padding-bottom: 0;
+    }
+    .ctabox{
+        padding: 30px;
+        background: linear-gradient(107deg, #e6f2f9 40%, #d1ecf0, #ceebed,#d1edefdb ,#daf0f2ad);
+    }
+    .contactussec .ctabox{
+        padding-bottom: 0;
+    }
+    .ctabox a{
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+    .ctaImg1{
+        width: 100%;
+        position: unset;
+    }
+}
+
+/* CTA Bottom css end here */

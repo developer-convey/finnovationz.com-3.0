@@ -1,0 +1,212 @@
+header .navbar-brand{
+    line-height: 20px;
+  }
+  .search-btn{
+    position: absolute;
+    right: 12px;
+    display: block;
+    
+  }
+  .search-btn-mob{
+    position: absolute;
+    top: 28px;
+    right: 67px;
+    display: none;
+  }
+  .search-form{
+      width: 312px;
+  }
+  .search-btn-mob{
+    /* display: none; */
+  }
+  .search-form input{
+    color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 14px;
+  }
+  .search-form-mob input{
+    color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 14px;
+  }
+  .search-list-item{
+    position: absolute;
+    top: 100%;
+    background: #000;
+    left: 0;
+    right: 0;
+  }
+  .search-list-item li{
+    margin: 10px 0;
+    padding: 0 10px;
+ 
+  }
+  .search-list-item li:hover{
+    background: linear-gradient(270deg, rgba(55, 127, 219, 0.15) 0.02%, rgba(55, 127, 219, 0.00) 98.11%);
+  }
+  .search-list-item li{
+    display: flex;
+  }
+  .search-list-item img.brnad-logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+    background: #f6f0f0;
+    padding: 3px;
+  }
+  .search-list-item a{
+    color: #2b2b2b;
+  text-decoration: none;
+  }
+  @media (min-width:991px){
+  body header nav {
+      border: 1px solid rgba(0, 0, 0, 0);
+      background: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 0) 8.11%,
+        rgba(255, 255, 255, 0.5) 18.36%,
+        rgba(255, 255, 255, 0.5) 79.14%,
+        rgba(255, 255, 255, 0) 91.72%
+      ) !important;
+      backdrop-filter: blur(159px);
+      top: 20px !important;
+      transition: 0.5s all ease-in-out;
+    }
+  
+    body header nav.scrolled {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+      background: rgba(255, 255, 255, 0.8) !important;
+      backdrop-filter: blur(159px);
+      top: 0 !important;
+    }
+  }
+  @media (max-width: 991px) {
+      div#offcanvasNavbar-expand-lg {
+        border-left: 1px solid rgba(0, 0, 0, 0.03);
+        background: linear-gradient(194deg, #E7F1FA 9.35%, #FFF 30.07%);
+    }
+    .navbar-toggler{
+      order: 2;
+    }
+    body .nav-link{
+      padding: 16px;
+    }
+    .navbar{
+      background-color: transparent!important;
+    }
+    body .nav-link.active{
+      background: linear-gradient(270deg, rgba(92, 198, 240, 0.20) -20.39%, rgba(92, 198, 240, 0.00) 99.9%);
+      color: #387EDB!important;
+    }
+    .offcanvas-body{
+      padding: 0;
+    }
+      
+      header nav {
+        background-color: #fff;
+      }
+      header:has(.collapsed) nav.scrolled {
+        background-color: #fff!important;
+      }
+      header:has(.collapsed) nav {
+        background-color: transparent;
+        transition: 0.5s all ease-in-out;
+      }
+    }
+    @media (max-width:768px) {
+      .navbar-toggler{
+        order: unset;
+      }
+      .search-form{
+        width: 100%;
+        margin-top: 8px;
+      }
+    }
+    @media (max-width:576px) {
+      .logo {
+        width: 150px;
+    }
+    .search-btn{
+      display: none;
+    }
+      .mobile_bar{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(83.86deg, #30C9AB 2.33%, #377BDC 92.3%);
+        padding: 5px;
+      }
+      .mobile_bar img{
+        width:16px;
+      }
+      .navbar{
+        padding-top: 32px;
+      }
+      .mobile_bar a{
+        font-size: 14px;
+        font-weight: 800;
+        color: #fff;
+      }
+      div#offcanvasNavbar-expand-lg{
+        width: 90%;
+        
+      }
+     
+      header nav {
+        padding-inline: 15px !important;
+      }
+    }
+    img.logo {
+      width: 163px;
+  }
+  .navbar-toggler {
+    border: 0;
+    box-shadow: unset !important;
+  }
+  .navbar-toggler span {
+    width: 18px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: 4px 0;
+  }
+  .navbar-toggler span:nth-child(2) {
+    width: 15px;
+    margin-left: auto;
+  }
+  .search-btn-mob{
+    position: absolute;
+    top: 28px;
+    right: 67px;
+    display: block;
+  }
+  .search-form input{
+    color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 14px;
+    
+  }
+  .search-form-mob input{
+    color: #A4A4A4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 14px;
+    display: none;
+  }
+  .toglemenu-mob{
+    position: absolute;
+   
+    top: 32px;
+    right: 29px;
+  }
+  

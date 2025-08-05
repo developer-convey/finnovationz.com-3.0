@@ -1,0 +1,83 @@
+.about-mentor{
+    padding: 60px 0 0px;
+}
+.add-font{
+    font-family: 'Mulish', sans-serif;
+}
+.sub-title{
+    font-size: 20px;
+}
+.about-mentor h2{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+}
+.about-mentor h3{
+    color: #387EDB;
+    font-size: 48px;
+    font-weight: 800;
+}
+.about-mentor h3:after{
+    content: "";
+    display: block;
+    width: 85px;
+    height: 3px;
+    background-color: #387EDB;
+    margin: 20px 0 ;
+}
+.social-share{
+    border-radius: 16px;
+background: linear-gradient(179deg, #E6F0FA 40.62%, #E6F5F7 119.44%);
+padding: 20px 24px;
+gap: 8px;
+width: max-content;
+}
+.social-share span{
+    position: relative;
+    padding-right: 16px;
+}
+.social-share span:after{
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #CBCBCB;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.social-share span.link:after{
+    display: none;
+}
+@media (max-width:991px) {
+    .about-mentor h2 {
+        font-size: 26px;
+    }
+    .about-mentor h3 {
+        font-size: 38px;
+    }
+}
+@media (max-width:576px) {
+   
+    .social-share {
+        padding: 20px 12px;
+        gap:12px;
+    }
+    .about-mentor h2 {
+    color: #000;
+    font-size: 24px;
+    }
+    .about-mentor {
+        padding: 10px 0 0px;
+    }   
+    .about-mentor h2 {
+    font-size: 24px;
+    }
+    .about-mentor h3 {
+        font-size: 31px;
+    }
+    .about-mentor h3:after {
+        margin: 20px auto;
+    }
+}

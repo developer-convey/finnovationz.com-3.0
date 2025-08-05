@@ -1,0 +1,269 @@
+.mainhead {
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: center; */
+    text-align: left;
+    /* background: #000; */
+    /* align-items: center; */
+    margin-top: 5%;
+    width: 67%;
+    padding-left: 140px;
+    /* background: #000; */
+}
+
+
+.main2 {
+    width: 764px;
+    /* margin-right: 16%; */
+    column-gap: 64px;
+
+
+}
+
+
+.calc-form {
+    padding: 1rem;
+    /* Optional: add padding for better layout */
+    /* width: 764px; */
+}
+
+
+.text {
+    /* color: #646464;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    word-wrap: break-word; */
+
+
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    text-align: left;
+    color: #646464;
+
+
+}
+
+
+.title1 {
+    color: black;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+
+.title {
+    /* color: black; */
+    font-size: 24px;
+    font-family: Mulish;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-top: 64px;
+
+
+    /* font-family: Mulish; */
+    /* font-size: 24px;
+font-weight: 800; */
+    line-height: 30.12px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+
+}
+
+
+.heade {
+    color: black;
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+
+.list {
+    color: #646464;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .mainhead {
+        width: 100% !important;
+        padding: 1rem 1rem !important
+    }
+
+    .main2 {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .mainhead {
+        width: 100% !important;
+        padding: 1rem 2rem !important
+    }
+
+    .main2 {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mainhead {
+        width: 100% !important;
+        padding: 1rem 5rem !important
+    }
+
+    .main2 {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .mainhead {
+        padding-left: 120px;
+        width: 65%;
+    }
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+    .main2 {
+        width: 80%;
+        margin-right: 10%;
+        column-gap: 32px;
+    }
+
+
+    .title {
+        margin-top: 32px;
+        font-size: 22px;
+    }
+
+
+    .title1,
+
+
+    .heade {
+        font-size: 22px;
+    }
+
+
+    .text,
+    .list {
+        font-size: 16px;
+    }
+}
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .mainhead {
+        flex-direction: column;
+        align-items: flex-start;
+        /* margin-top: 3%; */
+    }
+
+
+    .main2 {
+        width: 80%;
+        margin-right: 0;
+        column-gap: 16px;
+        padding: 30px;
+        /* margin-top: 46px; */
+    }
+
+
+    .calc-form {
+        padding: 0.5rem;
+    }
+
+
+    .title {
+        margin-top: 32px;
+        font-size: 20px;
+    }
+
+
+    .title1,
+
+
+    .heade {
+        font-size: 20px;
+    }
+
+
+    .text,
+    .list {
+        font-size: 14px;
+        width: 85%
+    }
+
+
+    .margin-top {
+        margin-top: 0.5rem;
+    }
+
+
+    .responsive-button {
+        margin-top: -8px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mainhead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .main2 {
+        display: flex;
+        /* margin-left: 4%; */
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+    .main2 {
+        /* margin-left: 13%; */
+    }
+}
+
+
+/*
+@media (max-width: 1370px) {
+
+
+    .main2 {
+        display: flex;
+        margin-left: 13%;
+        flex-direction: column;
+        width: 100%;
+    }
+} */

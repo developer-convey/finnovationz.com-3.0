@@ -1,0 +1,203 @@
+.timeline {
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.timeline h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.timeline h2 span {
+  display: block;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.timeline .content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.timeline .content .line1 {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 100px);
+  height: 146px;
+  z-index: 1;
+}
+
+.timeline .content .line1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.timeline .content > div {
+  position: relative;
+  width: 16%;
+  text-align: center;
+  margin-top: calc(var(--i) * 35px);
+  z-index: 2;
+}
+
+.timeline .content > div h3 {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: linear-gradient(160deg, #f5f5f5 7.27%, #fff 85.78%);
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2873d7;
+  font-size: 18px;
+  font-weight: 900;
+  position: relative;
+  box-shadow: 0px 3px 5px 0px rgba(57, 105, 176, 0.1);
+}
+
+.timeline .content > div h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  z-index: -1;
+  background: linear-gradient(178deg, rgba(55, 131, 216, 0.12) 16.02%, rgba(49, 192, 178, 0.12) 128.16%);
+}
+
+.timeline .content > div p {
+  margin-top: 16px;
+  color: #646464;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.timeline .content > div .line2 {
+  position: absolute;
+  width: 80%;
+  height: 146px;
+  z-index: -1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline .content > div .line2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.timeline .map {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline .map img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile styles */
+.timeline.mobile .content {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  gap: 40px;
+}
+
+.timeline.mobile .content > div {
+  width: 100%;
+  margin-top: 0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.timeline.mobile .content > div p {
+  margin-top: 0;
+  flex: 1;
+}
+
+.timeline.mobile .content .line1 {
+  display: none;
+}
+
+.timeline.mobile .content > div .line2 {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 2px;
+  background-color: #2873d7;
+}
+
+.timeline.mobile .map {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+/* Tablet styles */
+.timeline.tablet .content {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.timeline.tablet .content > div {
+  width: calc(33.33% - 40px);
+  margin-top: calc(var(--i) * 20px);
+}
+
+.timeline.tablet .content .line1 {
+  width: calc(100% - 60px);
+}
+
+.timeline.tablet .map {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+/* Desktop styles */
+.timeline.desktop .content {
+  padding-top: 60px;
+  min-height: 300px;
+}
+
+.timeline.desktop .content .line1 {
+  top: 35px;
+  height: 146px;
+}
+
+.timeline.desktop .content > div {
+  padding-top: 20px;
+}
+
+.timeline.desktop .content > div .line2 {
+  display: none;
+} 

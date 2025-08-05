@@ -1,0 +1,61 @@
+{
+  
+    "faq":[
+      {
+        "question":"Will this be live or pre-recorded?",
+        "answer":"Yes, I will be there in person with you, and you can ask whatever you want."
+      },
+      {
+        "question":" Will this be in Hindi?",
+        "answer":"The programme will be in Hindi but uses English as well in appropriate places"
+      },
+      {
+        "question":"How do I join the programme?",
+        "answer":" We will send you a Mail, WhatsApp, Call, SMS, or even a pigeon if required to ensure you don’t miss it."
+      }
+    ],
+    "faqmarathi":[
+      {
+        "question":"हे सेशन मराठी मधून होईल का?",
+        "answer":" हो  सेशन मराठी मधूनच होईल."
+      },
+      {
+        "question":"मी सेशन join कसे करू?",
+        "answer":" आम्ही सेशन सुरू होण्याच्या किमान 3 तास आधी तुम्हाला link whatsapp आणि registered e -mail id वर पाठवून देऊ."
+      }
+    ],
+
+    "Whydoneedthisproject":[
+      {
+        "question":"Anyone who wants to find undervalued stock for self or client."
+      },
+      {
+        "question":"Anyone who wants to build financial models and analyse companies."
+
+      },
+      {
+        "question":"Anyone who wants to build career in investment banking and other financial fields        "
+      },
+      {
+        "question":"Anyone who wants to change the financial position of one’s family."
+      }
+    ]
+    ,
+    "Whydoneedthisprojectmarathi":[
+      {
+        "question":"तुम्हाला मार्केट मधून बक्कळ पैसा कमवायचा आहे"
+      },
+      {
+        "question":"तुम्हाला एक अशी system हवी जी कोणत्याही market conditions मध्ये तुम्हाला पैसे कमवून देईल"
+
+      },
+      {
+        "question":"तुम्हाला ट्रेडिंग चे pressure नको आहे"
+      },
+      {
+        "question":"तुम्हाला योग्य संधी योग्य वेळेवर हवी आहे"
+      }
+    ]
+   
+  }
+  

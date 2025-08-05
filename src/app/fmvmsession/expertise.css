@@ -1,0 +1,74 @@
+.expertise .heading h2 span {
+    font-weight: normal;
+  }
+  
+  .expertise .content {
+    padding: 48px;
+    border-radius: 20px;
+    border: 2px solid #D5D5D5;
+    margin-top: -85px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  
+  .expertise .content .expertise_details h4 {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #387EDB;
+    font-size: 1.3rem;
+  }
+  
+  .expertise .content .expertise_details span {
+    color: #646464;
+    font-size: 0.95rem;
+  }
+  
+  .expertise .expertise-box {
+    display: flex;
+    align-items: center;
+    min-width: 240px;
+    flex: 1 1 calc(25% - 24px); /* 4 items per row max with gap */
+    gap: 12px;
+  }
+  
+  .expertise .expertise-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .expertise .heading {
+    flex: 1 1 100%;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 992px) {
+    .expertise .expertise-box {
+      flex: 1 1 calc(50% - 24px); /* 2 per row on tablet */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .expertise .expertise-box {
+      flex: 1 1 100%; /* Full width on mobile */
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .expertise .content {
+      margin-top: 42px;
+      padding: 32px;
+      gap: 20px;
+    }
+  
+    .expertise .content .expertise_details h4 {
+      font-size: 1.1rem;
+    }
+  
+    .expertise .content .expertise_details span {
+      font-size: 0.9rem;
+    }
+  }
+  

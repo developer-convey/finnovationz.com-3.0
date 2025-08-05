@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://finnovationz.com
+
+# Sitemaps
+Sitemap: https://finnovationz.com/sitemap.xml

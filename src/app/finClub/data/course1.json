@@ -1,0 +1,111 @@
+{
+  "user_testimonials": [
+    {
+      "image": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t11.webp",
+      "name": "Dingwani Prakash",
+      "rating": 4.8,
+      "comment": "Frds finovations is very good app n coures r awesome . Life changing n very easy to understand stock market. On fingure tips companies analysis by prasad very good human being n intraction . Life changing fundamental coures by prasad in simplify practical way."
+    },
+    {
+      "image": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t22.webp",
+      "name": "Punni Lal Kewat",
+      "rating": 4.9,
+      "comment": "Freedom Finance."
+    },
+    {
+      "image": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t3.webp",
+      "name": "Mohamed Tahil S",
+      "rating": 4.7,
+      "comment": "its an awesome platform for me to learn , clear doubts . THE BEST PLATFORM I CAN SAY"
+    },
+    {
+      "image": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t44.webp",
+      "name": "Rahul Kundu",
+      "rating": 4.6,
+      "comment": "Embracing Finnovationz has been a game-changer in my journey. The courses are fantastic, and the weekly doubt-clearing sessions in the community have significantly enhanced my understanding of the stock market. It's been an incredible journey of learning and growth, and I'm grateful for the enriching experience. Thank you, Finnovationz."
+    },
+    {
+      "image": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t6.webp",
+      "name": "Shaurya Rathore",
+      "rating": 5.0,
+      "comment": "Very good and quality oriented content delivered by Prasad Sir! It's actually pleasure watching his videos"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I access the Finance Club?",
+      "answer": "Once you have opened a Demat Account, just chill. Our team will reach out to you. In case you have any queries, send a WhatsApp to <a href='tel:+917892541249' class='text-decoration-none'>+91 7892541249</a> or mail us at <a href='mailto:support@finnovationz.com' class='text-decoration-none'>support@finnovationz.com"
+    },
+    {
+      "question": "Do I need an app to access the Finance Club?",
+      "answer": "Yes, you need to download the FinnovationZ app from the Play Store or App Store"
+    },
+    {
+      "question": "What is the validity of my membership?",
+      "answer": "Your membership is valid as long as your Demat Account is active."
+    },
+    {
+      "question": "What are the timings of Q&A sessions with experts?",
+      "answer": "Every Friday, 6:00 pm to 7:00 pm"
+    },
+    {
+      "question": "How do I get to know about the offline sessions?",
+      "answer": "We will send you a Mail, WhatsApp, Call, SMS, or even a pigeon if required to ensure you don’t miss the session. "
+    },
+    {
+      "question": "How do I claim the Amazon Voucher?",
+      "answer": "As soon as your referee has opened a Demat Account, share the details with +91 7892541249, and our team will send the Voucher to you at the speed of light."
+    }
+  ],
+  "clientTestimonial": [
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t11.webp",
+      "name": "Dingwani Prakash",
+      "text": "Frds finovations is very good app n coures r awesome . Life changing n very easy to understand stock market. On fingure tips companies analysis by prasad very good human being n intraction . Life changing fundamental coures by prasad in simplify practical way. ",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t11.webp"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t22.webp",
+      "name": "Punni Lal Kewat",
+      "text": "Freedom Finance ",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t22.webp"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t3.webp",
+      "name": "Mohamed Tahil S",
+      "text": "its an awesome platform for me to learn , clear doubts . THE BEST PLATFORM I CAN SAY",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t3.webp"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t44.webp",
+      "name": "Rahul Kundu",
+      "text": "Embracing Finnovationz has been a game-changer in my journey. The courses are fantastic, and the weekly doubt-clearing sessions in the community have significantly enhanced my understanding of the stock market. It's been an incredible journey of learning and growth, and I'm grateful for the enriching experience. Thank you, Finnovationz.",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t44.webp"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t6.webp",
+      "name": "Shaurya Rathore",
+      "text": "Very good and quality oriented content delivered by Prasad Sir! It's actually pleasure watching his videos",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t6.webp"
+    },
+    {
+      "clientImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t7.webp",
+      "name": "Adarsh",
+      "text": "Your application is very slow and feel very lagging in login.",
+      "rating": "4.5",
+      "userImg": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/Finclub/ClientTestimonial/t7.webp"
+    },
+    {
+      "clientImg": "/t5.webp",
+      "name": "Saurabh Jain",
+      "text": "By far best education hub for investing sector…i would say if u r having investing journey, convey will be ur Harvard in that…",
+      "rating": "4.5",
+      "userImg": "/t5.webp"
+    }
+  ]
+}

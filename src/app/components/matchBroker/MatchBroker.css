@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+.broker_match{
+    padding: 200px 0 100px;
+}
+@media (max-width:991px) {
+    .broker_match {
+        padding: 104px 0 0px;
+    }
+    
+    
+}
+.menter-subtitle{
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}

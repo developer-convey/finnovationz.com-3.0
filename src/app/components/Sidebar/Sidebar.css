@@ -1,0 +1,26 @@
+.sidebar{
+    background: #fff;
+    box-shadow: 0 2px 5px #e4e4e42e;
+    border: 1px solid #E4E4E4;
+    border-radius: 15px;
+    position:sticky;
+    top: 10px;
+}
+.sidebar li{
+    padding: 10px 20px;
+}
+.sidebar li.active{
+    border-left: 4px solid;
+    border-image: linear-gradient(to bottom, #377FDB, #377FDB);
+    border-image-slice: 1;
+    background-image: linear-gradient(200deg, #377fdb2e, #377fdb00);
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: #646464;
+    font-weight: 500;
+}
+.sidebar li img{
+    margin-right: 16px;
+}

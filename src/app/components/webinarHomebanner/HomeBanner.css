@@ -1,0 +1,178 @@
+.home-banner{
+    background-image: url('/home-banner.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 55px 75px;
+}
+.paraGraphStyle{
+
+}
+.home-banner .content h1{
+    font-size: 39px;
+    font-weight: 700;
+    
+}
+.home-banner .content h1 span{
+    line-height: 50px;
+    color: #3782D9;
+}
+.content p span{
+    color: #000;
+    font-weight: 700;
+}
+.date_bg{
+    background-image: url('/date_bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12px 20px;
+}
+.date_bg p{
+    margin-bottom: 0;
+}
+.prices_box {
+    margin-top: 24px;
+    display: inline-block!important;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid #3782d9;
+    box-shadow: 0 3px 0px #3782d9;
+}
+.prices_box .option h2{
+    margin-bottom: 0;
+}
+.prices_box .option span{
+    color: #646464;
+}
+.prices_box .option{
+    
+    padding: 12px 26px;
+    text-align: center;
+    margin-right: 12px;
+    
+}
+.prices_box .option.active_option::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+        animation: shimmer 2s infinite;
+}
+.prices_box .option.active_option{
+    position: relative;
+    overflow: hidden;
+    min-height: 110px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.prices_box .option.disable_text{
+    border: 1px solid #E8E8E8;
+    background-color: #ffffffb3;
+    color: #00000047;
+    border-radius:16px;
+}
+.prices_box .option h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-banner .content .progress{
+    margin-top: 19px;
+    height: 10px;
+    background-color: white;
+    width: 80%;
+}
+.home-banner .content .progress .progress-bar{
+    width: 84.7%;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #31C1B1 , #377FDB);
+}
+.home-banner .content .progress-content{
+    text-align: center;
+    margin-top: 12px;
+    width: 59%;
+}
+.home-banner .content .progress-content h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.home-banner .content .progress-content h4 span{
+    color: #646464;
+    font-weight: 500;
+}
+@media (max-width:576px) {
+    .home-banner .content h1 {
+        /* font-size: 24px; */
+        font-weight: 700;
+        font-family: 'Mulish';
+    }
+    .home-banner {
+        padding: 55px 15px;
+    }
+    .date_bg{
+        padding: 12px 10px;
+    }
+    .date_bg p{
+        font-size: 13px;
+    }
+    .prices_box .option.active_option{
+    position: relative;
+    overflow: hidden;
+    min-height: 110px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.prices_box .option.disable_text{
+    border: 1px solid #E8E8E8;
+    background-color: #ffffffb3;
+    color: #00000047;
+    border-radius:16px;
+}
+.prices_box .option h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+}
+
+@keyframes shimmer {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(150%);
+    }
+  }
+
+  @media (max-width:576px) {
+    .home-banner .content .progress{
+        margin-top: 19px;
+        height: 10px;
+        background-color: white;
+        width: 100%;
+    } 
+    .prices_box {
+        margin-top: 45px;
+
+    }
+    .date_bg{
+        background-image: url('/date_bg.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 12px 20px;
+        position: absolute;
+        /* top: 646px; */
+        left: 43px;
+        bottom: -34px;
+    
+    }
+}

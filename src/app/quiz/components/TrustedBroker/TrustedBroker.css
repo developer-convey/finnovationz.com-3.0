@@ -1,0 +1,67 @@
+.demat-btn{
+    color: #3E1959;
+    font-weight: 800;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 11px 11px;
+    line-height: 22px;
+}
+.broker_card{
+    height: 100%;
+    background-size: cover!important;
+    border-radius: 16px;
+    padding: 65px 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.broker_card img{
+    width: 157px;
+    margin: 0 auto;
+    height: 38px;
+}
+.upstox-bg{
+    background: url(/upstox-bg.svg) no-repeat center;
+}
+.angel-bg{
+    background: url(/angel-bg.svg) no-repeat center;
+}
+.dhan-bg{
+    background: url(/dhan-bg.svg) no-repeat center;
+}
+.zerodha-bg{
+    background: url(/zerodha-bg.svg) no-repeat center;
+}
+.zerodha-bg .demat-btn,.angel-bg .demat-btn{
+    background: #387EDB;
+    color:#fff;
+    border-color: #387EDB;
+}
+.dhan-bg .demat-btn{
+    border-color: #3D8763;
+    color: #3D8763;
+}
+.stocks-area{
+    border: 1px solid #BDDBE8;
+    padding:30px 30px 70px; 
+    border-radius: 20px;
+    text-align: center;
+}
+.all-stocks-name {
+    margin-top: -76px;
+    padding: 0 35px;
+}
+
+@media (max-width:768px) {
+    .stocks-area{
+        border: unset;
+    padding:30px 30px 0px; 
+
+    }
+    .all-stocks-name {
+        margin-top:0;
+        padding: 0 ;
+    }
+}

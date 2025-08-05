@@ -1,0 +1,75 @@
+/* imgbackground {
+  background: url("/Rectangle 1526.png") no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 20px;
+  position: relative;
+  height: 680px;
+}
+
+.onDecstopcard {
+  display: flex;
+}
+
+.text_para {
+  width: 60%;
+}
+
+.textsize {
+  font-size: 48px;
+}
+
+.maincontainer {
+  width: '100%';
+  display: 'flex';
+  justify-Content: 'center';
+  align-items: 'center';
+  flex-direction: 'column'
+}
+
+@media (max-width: 460px) {
+  .imgbackground {
+    background: url("/Rectangle 1526.png") no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    position: relative;
+    height: 835px;
+  }
+
+  .onDecstopcard {
+    /* display: unset; */
+/* }
+
+  .text_para {
+    width: 90%;
+  }
+
+  .textsize {
+    font-size: 32px;
+  }
+}
+
+.thankyougif {
+  margin-bottom: 36px;
+} */
+.iconhand {
+    font-size: 50px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  
+  .imgbackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 65vh; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  }
+  
+  

@@ -1,0 +1,18 @@
+.iconhand {
+    font-size: 50px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  
+  .imgbackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 65vh; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  }

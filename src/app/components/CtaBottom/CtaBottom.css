@@ -1,0 +1,62 @@
+.ctaSec{
+    padding: 70px 0 20px;
+}
+.ctabox{
+    border-radius: 24px;
+    background: linear-gradient(238deg, rgba(55, 131, 216, 0.12) 18.76%, rgb(227 240 252) 52.2%, rgb(207 229 247) 72.2%);
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.ctabox h2 span{
+    color: #387EDB;
+}
+
+.ctaImg1{
+    width: 50.5%;
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    top: 0;
+    border-radius: 24px;
+    z-index: -1;
+}
+
+@media (max-width:991px) {
+    .ctabox{
+        padding: 40px;
+    }
+    .ctaImg1{
+        width: 58%;
+    }
+    .ctabox h2{
+        font-size: 26px;
+    }
+  
+}
+@media (max-width:767px) {
+    .ctaSec{
+        padding: 10px 0 20px;
+    }
+    .contactussec .ctabox{
+        padding-bottom: 0;
+    }
+    .ctabox a{
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+    .ctaImg1{
+        width: 100%;
+        position: unset;
+    }
+    .clientTestimonial {
+        padding: 150px 0 70px;
+    }
+    .contactussec .ctabox{
+        background-image: linear-gradient(122deg, #e5f1fb 47.03%, #d6ecf0 51.28%, #d7f1f6 95.28%)
+    }
+    .ctabox h2 {
+        font-size: 20px;
+    }
+}
+

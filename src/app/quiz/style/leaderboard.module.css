@@ -1,0 +1,332 @@
+.Leaderboard{
+    background-image: url('/certificate_bg.svg');
+    background-size: cover; 
+    padding: 0px 0px 0;
+   
+}
+h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+/* Weekly css start from here */
+.Leaderboard_img_parent{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Leaderboard_img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.lead_win{
+    position: absolute;
+    text-align: center;
+}
+.lead_win img{
+    width: 91px;
+    height: 91px;
+    border-radius: 100%;
+    background-color: white;
+}
+.lead_win p{
+    font-size: 24px;
+    margin: 8px 0px;
+    color: black;
+}
+.lead_win span{
+    color: #387EDB!important;
+    background-image: linear-gradient(90deg, #F0F4FA 90%, #ECF7FB, #FFFFFF);
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 1px solid #387EDB;
+    display: block;
+    text-align: center;
+}
+.first_win{
+    left: 42%;
+}
+.second_win{
+    transform: rotate(354deg);
+    
+}
+.third_win{
+    transform: rotate(-354deg);
+   
+}
+@media screen and (min-width: 1200px){
+    .Leaderboard_img_parent{
+        width: 742px;
+        margin-top: 220px;
+    }
+    .first_win{
+        left: 42%;
+        top: -50%;
+    }
+    .second_win{
+        left: 5%;
+        top: -35%;
+    }
+    .third_win{
+        right: 5%;
+        top: -20%;
+    } 
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .Leaderboard_img_parent{
+        width: 80%;
+        margin-top: 255px;
+    }
+    .first_win{
+        left: 41%;
+        top: -55%;
+    }
+    .second_win{
+        left: 5%;
+        top: -35%;
+    }
+    .third_win{
+        right: 5%;
+        top: -25%;    
+    } 
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .Leaderboard_img_parent{
+        width: 80%;
+        margin-top: 255px;
+    }
+    .first_win{
+        left: 38%;
+        top: -75%;
+    }
+    .second_win{
+        left: 1%;
+        top: -52%;
+    }
+    .third_win{
+        right: 1%;
+        top: -37%;    
+    } 
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .Leaderboard_img_parent{
+        width: 100%;
+        margin-top: 255px;
+    }
+    .first_win{
+        left: 38%;
+        top: -75%;
+    }
+    .second_win{
+        left: 1%;
+        top: -56%;
+    }
+    .third_win{
+        right: 1%;
+        top: -42%;    
+    } 
+}
+
+@media screen and (max-width: 575px){
+    .Leaderboard_img_parent{
+        width:300px;
+        margin-top: 150px;
+    }
+    .first_win{
+        left: 39%;
+        top: -70%;
+    }
+    .second_win{
+        left: 1%;
+        top: -50%;
+    }
+    .third_win{
+        right: 1%;
+        top: -40%;    
+    } 
+
+    .lead_win img{
+        width: 50px;
+        height: 50px;
+    }
+    .lead_win p{
+        font-size: 12px;
+        margin: 4px 0px;
+    }
+    .lead_win span{
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+}
+/* Weekly css end here */
+
+
+/* Leaderboard Table css start from here */
+.Leaderboard_table_content{
+    margin-top: -100px;
+    padding: 32px 32px 10px;
+    background-color: #ffffff94;
+    backdrop-filter: blur(92px);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+border-top-left-radius:32px;
+border-top-right-radius:32px;
+}
+.Leaderboard_table_content_head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+}
+.Leaderboard_table_content_inner{
+    padding: 20px 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.first_col_head, .first_col{
+    align-items: center;
+    display: flex;
+}
+.second_co_headl, .second_col{
+    align-items: center;
+    display: flex;
+}
+.third_col_head, .third_col{
+    text-align: center;
+}
+.Leaderboard_table_content_head span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+}
+.Leaderboard_table_content_inner .second_col img{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-right: 12px;
+}
+.Leaderboard_table_content_inner .first_col img{
+    width: 26px;
+    height: 32px;
+    margin-right: 12px;
+}
+.Leaderboard_table_content_inner span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.Leaderboard_table_content_inner{
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    backdrop-filter: blur(92px);
+}
+.Leaderboard_table_content_inner:hover{
+    background-image: linear-gradient(80deg, #31C1B1, #377FDB);
+    color: white;
+    cursor: pointer;
+}
+.Leaderboard_table_content_inner:hover .third_col span{
+    background-image: linear-gradient(90deg, #f0f4fa00 90%, #ecf7fb00, #ffffff00);
+    color: white!important;
+    border: 1px solid white;
+}
+.Leaderboard_table_content_inner .third_col span{
+    color: #387EDB!important;
+    background-image: linear-gradient(90deg, #F0F4FA 90%, #ECF7FB, #FFFFFF);
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 8px;
+    border: 1px solid #387EDB;
+    display: block;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .first_col_head, .first_col{
+        width: 20%;
+    }
+    .second_co_headl, .second_col{
+        width: 70%;
+    }
+    .third_col_head, .third_col{
+        width: 10%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .Leaderboard_table_content{
+        width: 899px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .Leaderboard_table_content{
+    width: 100%;
+    }
+    .first_col_head, .first_col{
+        width: 20%;
+    }
+    .second_co_headl, .second_col{
+        width: 60%;
+    }
+    .third_col_head, .third_col{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 575px){
+    .Leaderboard_table_content_inner .third_col span{
+        font-size: 14px;
+        padding: 4px 2px;
+    }
+    .Leaderboard_table_content_head span{
+        font-size: 12px;
+    }
+    .Leaderboard_table_content_inner span{
+        font-size: 16px;
+    }
+    .Leaderboard_table_content_head{
+        padding: 0px 15px;
+    }
+    .Leaderboard_table_content_inner .second_col img {
+        margin-right: 6px;
+        width: 30px;
+        height: 30px;
+    }
+    .Leaderboard_table_content_inner .first_col img{
+        margin-right: 6px;
+        width: 18px;
+        height: 24px;
+    }
+    .first_col_head, .first_col{
+        width: 20%;
+    }
+    .second_co_headl, .second_col{
+        width: 60%;
+    }
+    .third_col_head, .third_col{
+        width: 20%;
+    }
+    .Leaderboard_table_content_inner{
+        padding: 12px 16px;
+    }
+    .Leaderboard_table_content{
+        margin-top: -30px;
+        padding: 24px 24px 10px;
+    }
+   
+}
+@media screen and (max-width: 991px) and (min-width: 576px){
+    .Leaderboard_table_content{
+        margin-top: -80px;
+    }
+}
+/* Leaderboard css end here */

@@ -1,0 +1,282 @@
+.blog_details_banner {
+    background: linear-gradient(179deg, rgba(55, 131, 216, 0.12) 0.31%, rgba(49, 192, 178, 0.12), rgba(49, 192, 171, 0) 13%);
+    padding: 140px 0 80px;
+}
+
+.blog_details_banner h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.blog_details_banner h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 34px;
+    color: black;
+}
+
+.foundertext {
+    color: white !important;
+}
+
+.blog_details_banner p {
+    font-size: 18px !important;
+    color: #333;
+    margin-bottom: 15px !important;
+}
+
+.blog_details_banner a {
+    text-decoration: none;
+}
+
+.blog_details_banner img {
+    margin: 5px 0;
+    border-radius: 12px;
+}
+
+.BlogContent img {
+    width: -webkit-fill-available !important;
+    height: -webkit-fill-available !important;
+}
+
+.BlogContent div {
+    margin: 15px 0 20px;
+}
+
+.BlogContent {
+    margin-top: 40px;
+}
+
+.BlogContent *:not(img):not(table):not(th):not(td) {
+    all: revert;
+}
+
+.BlogContent figure {
+    margin: 0px !important;
+}
+
+.BlogContent table{
+    width: -webkit-fill-available !important;
+}
+
+.BlogContent td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+.BlogContent h2 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.blog_date {
+    font-size: 16px !important;
+}
+
+.blog_text_img {
+    position: relative;
+    color: white;
+}
+
+
+.bottom_left {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.bottom_left img {
+    margin: 0;
+}
+
+.top_right {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(12px);
+}
+
+.bottom_right span {
+    font-size: 14px;
+}
+
+.dot {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #CBCBCB;
+    display: inline-block;
+    margin: 2px 10px;
+}
+
+.bottom_right img {
+    margin: 0;
+}
+
+.ceo_name {
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.position {
+    margin-bottom: 0;
+    font-size: 14px !important;
+}
+
+.blog_social {
+    position: fixed;
+    top: 150px;
+}
+
+.blog_social button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.blog_most_recent {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.course_card {
+    border-radius: 16px;
+    background: #e7f1fa;
+    padding: 16px;
+    box-shadow: 0 1px 1px #b9cbc9;
+    border: 1px solid #dbe5e4;
+}
+
+.courseDetail:after {
+    content: "";
+    display: block;
+    border-radius: 16px;
+    background: #b0c9e7;
+    width: 80%;
+    height: 100px;
+    margin: -92px auto 0;
+    position: relative;
+    z-index: -1;
+}
+
+.courseDetail a {
+    text-decoration: none;
+    z-index: 9;
+    height: 100%;
+    display: block;
+}
+
+.courseDetail p {
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.author_lesson_detail span,
+.reviews span {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.courseDetail h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.courseDetailTitle {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.courseDetail h4 {
+    color: #000;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.courseDetailPrice {
+    color: #000;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.courseDetail img {
+    border-radius: 10px;
+}
+
+.cardfooter a {
+    font-size: 12px !important;
+    padding: 9px 28px;
+}
+
+.ratingStar {
+    width: 100px;
+}
+
+.toast {
+    position: absolute;
+    top: 0;
+    color: green;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+    .blog_details_banner .custom_container {
+        max-width: 1140px !important;
+    }
+
+}
+
+@media (min-width: 990px) {
+    .blog_social {
+        left: 0px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .blog_social {
+        left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .blog_social {
+        display: none;
+    }
+
+    .blog_details_banner {
+        padding: 80px 0;
+    }
+}

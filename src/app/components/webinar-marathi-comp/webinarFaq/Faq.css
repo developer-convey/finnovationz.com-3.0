@@ -1,0 +1,59 @@
+.faqaccordion .accordion-item {
+    border: none;
+    /* border-bottom: 1px solid #d9d9d9; */
+    padding: 20px 0 6px;
+  }
+  .faqsec{
+    padding: 100px 0;
+  }
+  .faqaccordion .accordion-button {
+    background: none;
+    /* border: none; */
+    box-shadow: unset;
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 0 15px;
+  }
+  
+  .faqaccordion .accordion-body {
+    padding: 0;
+    color: #646464;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .faqaccordion .accordion-button::after {
+    background-image: url("/cross.svg");
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    transform: rotate(45deg);
+    transition: 0.2s all ease-in-out;
+    /* display: none; */
+  }
+  .faqbutton .accordion-button::after{
+    display: none;
+  }
+  
+  
+  .faqaccordion .accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+  }
+  
+  .faqaccordion .accordion-item:last-child {
+    border: 0;
+    padding-bottom: 0;
+  }
+  
+@media (max-width:767px) {
+    .faqsec {
+        padding-top: 0px !important;
+    }
+}
+@media (max-width:576px) {
+    .faqsec{
+        padding-top: 10px!important;
+    }
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+  
+  @media only screen and (min-width: 1400px) {
+    .container{
+      max-width: 1200px!important;
+    }
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  p{
+    color: #646464;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .site_btn {
+    border-radius: 92px;
+    background: linear-gradient(86deg, #31c1b1 5.26%, #377fdb 79.53%);
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 22px;
+    position: relative;
+    text-decoration: none;
+  }
+  @media (max-width:991px) {
+    .site_btn {
+      border-radius: 92px;
+      background: linear-gradient(86deg, #31c1b1 5.26%, #377fdb 79.53%);
+      padding: 4px 25px;
+    }
+  }
+  
+  

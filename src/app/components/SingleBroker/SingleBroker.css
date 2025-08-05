@@ -1,0 +1,342 @@
+.card-shadow{
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0 2px 5px rgb(178 178 178 / 10%);
+    border-radius: 15px;
+    border: 1px solid #fcf9f9;
+}
+.reverse-stars {
+    transform: scaleX(-1);
+  }
+  
+.make-stiky{
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+   
+}
+.card-shadow h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-shadow h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-shadow .rating span{
+    font-size: 13px;
+    color: #646464;
+}
+.basic-charges h3{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.table-ui table thead tr th{
+    background: #3981DD;
+    color: #fff;
+}
+.table-ui table thead tr th:last-child{
+    border-radius: 0px 8px 0px 0px;
+
+}
+.table-ui table thead {
+    border-color: transparent;
+}
+.table-ui table thead tr th:first-child{
+    border-radius: 8px 0px 0px 0px;
+    background: linear-gradient(91deg, #32BFB3 11.18%, #3880DC 96.75%);
+}
+.basic-charges {
+    position: relative;
+}
+.basic-charges table thead img{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 52px;
+    z-index: 1;
+    object-fit: contain;
+    background: #fff;
+}
+.basic-charges table td{
+    width: calc(100% / 2); /* Assuming 3 columns */
+}
+.basic-charges  .td3-col  table td{
+    width: calc(100% / 3); /* Assuming 3 columns */
+}
+.open-demat{
+    background-image: linear-gradient(#E8F3FB,#E7F7F7);
+    border-radius: 24px;
+    padding: 0px 48px 0;
+
+    
+}
+.open-demat h2{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.open-demat .site_btn {
+    padding: 11px 24px;
+    font-size: 18px;
+}
+.open-demat h2 span{
+    background-image: linear-gradient(to right, #31C2B0, #377FDB);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+.open-demat img{
+    margin-top: 20px;
+}
+.table-responsive{
+    padding: 2px;
+}
+.table-responsive table{
+    margin: 0;
+    /* border-collapse: collapse;
+    border-spacing: 0; */
+    /* border: 1px solid #01CCB9; */
+    /* border-radius: 1rem;
+    overflow: hidden; */
+    /* outline: 1px solid #01CCB9; */
+}
+.basic-charges table tr td,.basic-charges table tr th {
+    padding: 12px;
+}
+tr:nth-child(even) td {
+    background-color: #F8F8F8;
+}
+.basic-charges .table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type: #646464; 
+     --bs-table-bg-type: transparent;
+}
+tr:nth-child(odd) {
+    background: transparent;
+}
+.pro-cons table tbody tr td{
+    position: relative;
+    padding-left: 40px;
+    color: #646464;
+}
+.pro-cons-mob table tbody tr td{
+    position: relative;
+    padding-left: 20px;
+    color: #646464;
+}
+.pro-cons table tbody tr td li{
+    margin-bottom: 10px;
+}
+.pro-cons table tbody tr td li:before{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+
+}
+.pro-cons table tbody tr td:first-child li:before{
+    content: url(/pro-blue.svg);
+}
+.pro-cons table tbody tr td:nth-child(2) li:before{
+    content: url(/cons.svg);
+  
+}
+ .brand_logo_i{
+    width: 47px!important;
+    height: 47px!important;
+    border-radius: 50%;
+    /* border: 1px solid #f5f3f3; */
+    padding: 4px;
+    object-fit: contain;
+    background: #eee;
+    border: 1px solid #d5d3d3;
+}
+
+.brand_logo_i2{
+    width: 27px!important;
+    height: 27px!important;
+    border-radius: 50%;
+    /* border: 1px solid #f5f3f3; */
+    padding: 4px;
+    object-fit: contain;
+    background: #eee;
+    border: 1px solid #d5d3d3;
+}
+.chart_box {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+}
+@media (max-width:768px) {
+    .basic-charges table thead img{
+        left: 50%;
+    }
+    .open-demat {
+        padding: 32px 48px 0;
+        text-align: center;
+    }
+    .card-shadow{
+        padding: 8px;
+    }
+    .chart_box{
+        height: 57vh;
+    }
+    .single_broker_banner .brand_logo_i{
+        margin: unset;
+    }
+    .single_broker_banner .rating div{
+        flex: auto;
+    }
+    .make-stiky{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        /* padding-left: 80px; */
+    }
+}
+
+.cssRating {
+    justify-content: center;
+}
+@media (max-width:377px) {
+    .pro-cons table tbody tr td li:before{
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 1px;
+    
+    }
+    .pro-cons table tbody tr td{
+        position: relative;
+        padding-left: 25px;
+        color: #646464;
+    }
+    .paddingLeft{
+        padding-left: 20px;
+    }
+}
+
+.basic-charges table thead img.compare-logo{
+    top: 10px;
+    
+}
+.compare_menu_list .dropdown-menu.show{
+    transform: translate(0, 66px) !important;
+}
+.compare-broker .basic-charges table td {
+    width: calc(100% / 3);
+}
+.compare_menu_list{
+        
+    position: sticky;
+    top: -0px;
+    z-index: 1000;
+
+}
+.rating-card {
+    border: 1px solid #E8E8E8;
+    flex: 0 0 48%;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 10px;
+}
+.rating-card .star{
+    width: 150px;
+    margin: 4px 0 10px;
+}
+.rating-card ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pro_logo{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background: #fff;
+}
+.starWidth{
+    width: 18px!important;
+}
+
+.compare_side2 .brokers-rating div{
+    justify-content: end;
+}
+
+.single_btoker_name {
+    display: flex;
+}
+
+@media (max-width:992px){
+    .single_btoker_name {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:767px){
+    /* .rating div{
+        flex: 0 0 100%;
+    } */
+    .compare_side2 .rating{
+        justify-content: center;
+    }
+    .broker2_content{
+        order: 1;
+        width: 100%;
+    }
+    .compare_side2 .broker2_content img{
+        margin: 0 auto;
+    }
+    .compare_side2 .brokers-rating div{
+        justify-content: center;
+    }
+    .brand_logo_i{
+    order: -1;
+}
+.broker-inner-detail .site_btn{
+    font-size: 14px;
+}
+ .arrow {
+    width: 16px !important;
+}
+.arrow2 {
+    width: 10px !important;
+    height: 10px !important;
+}
+.compare_side1,.compare_side2 {
+    flex: 0 0 40%;
+}
+}
+@media (max-width:576px) {
+    .rating-card {
+        flex: 0 0 100%;
+      }
+      .First-col-wid{
+        width: 50%;
+      }
+      .compare_menu_list{
+        
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    
+    }
+    
+}
+@media (max-width:375px) {
+    .compare_broker li img.vs-img {
+        width: 22px;
+        margin: 0 18px;
+    }
+
+}

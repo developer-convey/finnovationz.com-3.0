@@ -1,0 +1,138 @@
+.our-services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.our-services-card {
+    width: 213px;
+    height: 261px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    border: 1px solid #E8E8E8;
+    background: linear-gradient(216.77deg, #F4FEFE 14.26%, rgba(255, 255, 255, 0) 43.73%);
+    box-shadow: 0px 3px 5px 0px rgba(178, 178, 178, 0.1);
+}
+
+.our-services-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.our-services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.our-services-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40.16px;
+    text-align: center;
+    color: #000000;
+}
+
+.our-services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    width: 70%;
+}
+
+.our-services-card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: #E6F8F6;
+}
+
+.our-services-card-image img {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+
+.our-services-card-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    text-align: left;
+    color: #000000;
+}
+
+.our-services-card-description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    text-align: left;
+}
+
+.our-services-card-explore {
+    width: 125px;
+    height: 40px;
+    padding: 13px 24px;
+    gap: 10px;
+    border-radius: 92px;
+    border: 1px solid #387EDB;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 14px;
+    text-align: center;
+    color: #387EDB;
+}
+
+@media (min-width: 0px) and (max-width: 540px) {
+    .our-services-card {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .our-services-card-image-container {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .our-services-card-container{
+        width: 75%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .our-services-card-container{
+        width: 80%;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 640px) {
+    .our-services-card-container{
+        width: 80%;
+    }
+
+    .our-services-card {
+        width: 100%;
+        height: fit-content;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .our-services-card-container{
+        width: 80%;
+    }
+}

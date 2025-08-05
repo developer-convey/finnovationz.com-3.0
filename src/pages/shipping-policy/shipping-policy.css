@@ -1,0 +1,116 @@
+/* Main Content Styling */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+
+.shippingPolicy {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* padding: 150px 0 90px; */
+    background: linear-gradient(179deg,
+            rgba(55, 131, 216, 0.12) 11.31%,
+            rgba(49, 192, 178, 0.12) 69.47%,
+            rgba(49, 192, 178, 0) 90.45%);
+    font-family: "Mulish", sans-serif;
+}
+
+.container-shipping
+ {
+    max-width: 930px;
+    width: 100%;
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+    padding: 2rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Header Styling */
+.container-shipping
+ h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+    font-family: "Mulish", sans-serif;
+
+}
+
+.container-shipping
+ h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.container-shipping
+ h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container-shipping
+ p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    font-family: "Mulish", sans-serif;
+
+}
+
+/* List Styling */
+.container-shipping
+ ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container-shipping
+ ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+/* Link Styling */
+.container-shipping
+ a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.container-shipping
+ a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container-shipping
+     {
+        padding: 1.5rem;
+    }
+
+    .container-shipping
+     h1 {
+        font-size: 1.8rem;
+    }
+
+    .container-shipping
+     h5 {
+        font-size: 1.1rem;
+    }
+
+    .container-shipping
+     p,
+    .container-shipping
+     ul li {
+        font-size: 0.95rem;
+    }
+}

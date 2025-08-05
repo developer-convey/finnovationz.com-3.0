@@ -1,0 +1,206 @@
+/* thankyoucombo.css */
+
+.thankyou-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.thankyou-card {
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    /* White background */
+    border-radius: 0.5rem;
+    padding: 2rem;
+    max-width: 930px;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    overflow: hidden;
+    /* Prevents blur from spilling out */
+}
+
+.thankyou-card::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border: 3px solid rgb(127 126 126 / 90%);
+    border-radius: inherit;
+    pointer-events: none;
+    filter: blur(5px);
+}
+
+
+.thankyou-title {
+    font-size: 2rem;
+    font-weight: bold;
+    /* margin-bottom: 1rem; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.thankyou-message {
+    color: rgba(0, 0, 0, 1);
+    /* background: rgba(0, 0, 0, 1); */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.thankyou-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    margin-top: 25px;
+}
+
+.thankyou-icon {
+    /* width: 4.5rem;
+    height: 4.5rem; */
+
+    width: 88px;
+    height: 78px;
+
+
+}
+
+.diwali-message {
+    color: rgba(5, 194, 2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    gap: 0.5rem;
+    font-family: "Zilla Slab", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.explore-message {
+    color: rgba(199, 28, 28, 1);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.courses-button {
+    /* background-color: #2563eb; */
+    background: rgba(24, 0, 249, 1);
+
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.courses-button:hover {
+    background-color: #1e40af;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Larger screens (desktops) */
+@media (min-width: 1024px) {
+    .thankyou-card {
+        max-width: 900px;
+        padding: 2.5rem;
+    }
+
+    .thankyou-title {
+        font-size: 2.5rem;
+    }
+
+    .diwali-message {
+        font-size: 2rem;
+    }
+
+    .explore-message {
+        font-size: 1.25rem;
+    }
+}
+
+/* Tablets */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .thankyou-card {
+        max-width: 80%;
+        padding: 2rem;
+    }
+
+    .thankyou-title {
+        font-size: 2rem;
+    }
+
+    .diwali-message {
+        font-size: 1.75rem;
+    }
+
+    .explore-message {
+        font-size: 1.125rem;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+
+    .thankyou-container {
+        min-height: 90vh;
+    }
+
+    .thankyou-card {
+        max-width: 90%;
+        padding: 1.5rem;
+    }
+
+    .thankyou-title {
+        font-size: 1.75rem;
+    }
+
+    .diwali-message {
+        font-size: 18px;
+        margin-bottom: 12px;
+        margin-top: 35px;
+    }
+
+    .diwali-message img {
+        width: 23px;
+    }
+
+    .explore-message {
+        font-size: 12px;
+    }
+
+    .explore-message img {
+        width: 23px;
+    }
+
+    .thankyou-icon {
+        width: 56px;
+        height: 50px;
+    }
+
+    .courses-button {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .thankyou-message {
+        font-size: 12px;
+    }
+}

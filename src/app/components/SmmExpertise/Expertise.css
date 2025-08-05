@@ -1,0 +1,28 @@
+.expertise .heading h2 span{
+    font-weight: normal;
+}
+.expertise .content{
+    padding: 48px;
+    border-radius: 20px;
+    border:2px solid #D5D5D5;
+    margin-top: -85px;
+    position: relative;
+}
+.expertise .content .expertise_details h4{
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #387EDB;
+}
+.expertise .content .expertise_details span{
+    color: #646464;
+}
+
+@media screen and (max-width: 450px) {
+.expertise .content{
+    padding: 48px;
+    border-radius: 20px;
+    border:2px solid #D5D5D5;
+    margin-top: 22px;
+    position: relative;
+}
+}

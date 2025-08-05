@@ -1,0 +1,18 @@
+/* Add this in your CSS file or global stylesheet */
+.border-custom {
+    border: 2px solid rgba(245, 245, 245, 1);
+
+    padding: 10px 16px 10px 16px;
+    /* gap: 10px; */
+    border-radius: 30px;
+    border: 1px 0px 0px 0px;
+    /*opacity: 0px;*/
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+
+.blog-sort-by {
+    color: #757575;
+}

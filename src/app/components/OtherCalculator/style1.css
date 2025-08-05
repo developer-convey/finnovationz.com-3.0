@@ -1,0 +1,161 @@
+/* .othercalculator {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: 84px;
+  width: 220px;
+} */
+
+.othercalculator {
+  position: absolute;
+  top: 0;
+  left: 68%;
+  margin-top: 84px;
+  /* width: 220px; */
+}
+
+/* .calculator-container {
+  padding: 16px;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  width: 90%;
+  max-width: 330px;
+  height: auto;
+  border: 2px solid #e5e7eb;
+  margin: 40px auto;
+} */
+
+.calculator-container {
+  width: 324px; 
+  /* max-width: 90%;  */
+  height: auto;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  margin: 40px auto;
+}
+
+
+/* Heading style for the component */
+.calculator-heading {
+  font-weight: 800;
+  /* Equivalent to Tailwind's font-extrabold */
+  font-size: 18px;
+  margin-bottom: 14px;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* Style for the list of calculators */
+.calculator-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual item style in the list */
+.calculator-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 2px solid #e5e7eb;
+  /* Equivalent to Tailwind's border-b-[2px] */
+  color: #1f2937;
+  /* Equivalent to Tailwind's text-gray-900 */
+  font-size: 14px;
+  margin-left: 0;
+}
+
+/* Last item should not have a border */
+.calculator-item:last-child {
+  border-bottom: none;
+}
+
+/* Style for the Link component */
+.calculator-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style for the arrow symbol */
+.arrow-symbol {
+  font-size: 16px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+
+  /* For medium-sized devices like tablets */
+  .calculator-container {
+    /* width: 70%; */
+    /* Adjust width for tablets */
+    /* max-width: 500px; */
+    /* Slightly larger max width for tablets */
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .calculator-container {
+    width: 280px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* For large devices like desktops */
+  .calculator-container {
+    /* width: 50%; */
+    /* Adjust width for desktops */
+    /* max-width: 600px; */
+    /* Larger max width for desktops */
+    /* width: 180px; */
+    /* margin: 40px; */
+  }
+
+  .calculator-heading {
+    font-size: 16px;
+    /* Increase font size for larger screens */
+  }
+
+  .calculator-item {
+    font-size: 12px;
+    /* Increase font size for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* For small devices like mobile phones */
+  .calculator-container {
+    /* width: 95%;
+    max-width: 330px;
+    margin: 20px auto; */
+    /* Reduce margin for smaller screens */
+    display: none;
+  }
+
+  .calculator-heading {
+    font-size: 14px;
+    /* Slightly reduce the heading size */
+  }
+
+  .calculator-item {
+    font-size: 12px;
+    /* Reduce item font size for smaller screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .calculator-container {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.rectangle-img{
+    width: 100%;
+    height: 50%;
+}
+.hdr-contant{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40.16px;
+    text-align: center;
+    font-family: 'Molish';
+    color: black;
+}
+
+.para-containt {
+font-family: 'Mulish';
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+}
+/* .relative-backimge{
+    position: relative;
+}
+.abosolut-section{
+    position: absolute;
+} */

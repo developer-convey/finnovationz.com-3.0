@@ -1,0 +1,15 @@
+.inputfieldMain
+ {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.inputfieldMain:focus {
+    border-bottom: 2px solid #ccc;
+  }

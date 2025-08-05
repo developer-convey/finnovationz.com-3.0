@@ -1,0 +1,108 @@
+.RegistrationTime{
+    margin-top: 94px;
+    position: relative;
+    overflow: hidden;
+}
+.fw-passag {
+    font-size: 14px;
+    color: #afb0b1;
+font-weight: 400;
+}
+.RegistrationTime .heading_content{
+margin-bottom: 32px;
+}
+.testimonial-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.RegistrationTime .content_parent{
+    margin:10px!important;
+    padding:0px 10px;
+}
+.RegistrationTime .content{
+    background-image: url('/about_us_card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(178,178,178,0.2);
+-moz-box-shadow: 0px 3px 5px 0px rgba(178,178,178,0.2);
+box-shadow: 0px 3px 5px 0px rgba(178,178,178,0.2);
+}
+.RegistrationTime .content .content_header{
+    padding-bottom: 0px;
+    border-bottom: 0px solid #fff;
+}
+.RegistrationTime .content .content_header h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.RegistrationTime .content .content_header span{
+    color: #646464;
+}
+.RegistrationTime .content .content_body p{
+    font-size: 16px;
+    color: #646464;
+    margin: 16px 0px;
+}
+.RegistrationTime .content .content_body h6{
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.RegistrationTime .custom_shadow{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:991px) {
+    .RegistrationTime .content_parent {
+         margin:10px 0px!important;
+    }
+}
+.icon img{
+    width: 40px;
+    border-radius: 5px;
+}
+.icon img.twitter{
+    padding: 9px;
+    background: #f7f7f7;
+}
+@media (max-width:768px) {
+    .auto-scrolling {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; 
+        scroll-snap-type: x mandatory; 
+        -ms-overflow-style: -ms-autohiding-scrollbar; 
+        scrollbar-width: none;
+       flex-wrap: nowrap;
+        padding-bottom: 20px;
+        justify-content: start!important; 
+      }
+      
+      .content_parent {
+        scroll-snap-align: start; 
+        flex: 0 0 auto; 
+        margin-right: 10px; 
+      }
+      .custom_shadow{
+        display: none;
+      }
+}
+
+.check-img{
+    border: none;
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.marginno { 
+    margin: 0px !important;
+  }

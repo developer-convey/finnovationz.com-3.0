@@ -1,0 +1,146 @@
+.journey_coverage:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 75px;
+    border-bottom-right-radius: 41%;
+    background: white;
+    border-bottom-left-radius: 41%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.journey_coverage:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 75px;
+    border-top-right-radius: 41%;
+    background: white;
+    border-top-left-radius: 41%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.journey_coverage {
+    background-image: linear-gradient(174deg, rgba(55, 131, 216, 0.12) 100%, rgba(50, 180, 186, 0.12) 100%, rgba(49, 192, 178, 0.00) 100%);
+    padding: 130px 0 130px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+/* .journey-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.journey-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40.16px;
+    text-align: center;
+}
+
+.journey-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.journey-cards-row {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.journey-card-teaching,
+.journey-card-subscriber,
+.journey-card-learner {
+    display: flex;
+    align-items: center;
+    width: 31%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #E4E5E4;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px 0px #B2B2B21A;
+}
+
+.journey-title-color {
+    color: #387EDB;
+}
+
+.journey-card-total-year,
+.journey-card-hour {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #E4E5E4;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px 0px #B2B2B21A;
+}
+
+.journey-cards {
+    width: 100%;
+}
+
+.journey-cards-image {
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 90px;
+    background: linear-gradient(180deg, #E3F7F9 17.37%, #EFF6FF 100%);
+}
+
+.journey-cards-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30.12px;
+    color: #387EDB;
+}
+
+.journey-cards-description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.57px;
+    color: #646464;
+}
+
+.journey-cards-image-container {
+    width: 64px;
+    height: 64px;
+    padding: 18px;
+    gap: 0px;
+    border-radius: 82px;
+    border: 1.5px solid #FFFFFF;
+    background: linear-gradient(159.57deg, #F5F5F5 7.27%, #FFFFFF 85.78%);
+    box-shadow: 0px 3px 5px 0px #3969B01A;
+}
+
+@media (max-width: 1024px) {
+    .journey-cards-row {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .journey-card-teaching,
+    .journey-card-subscriber,
+    .journey-card-learner,
+    .journey-card-total-year,
+    .journey-card-hour {
+        width: 100%;
+    }
+}
