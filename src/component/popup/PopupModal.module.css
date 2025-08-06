@@ -1,0 +1,85 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modalContainer {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .popupImage {
+    width: 100%;
+    display: block;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 2;
+  }
+  
+  .ctaButton {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #31411f;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 6px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 24px;
+  flex-wrap: nowrap;
+white-space: nowrap;
+    /* Smooth animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .ctaButton:hover {
+    transform: translateX(-50%) scale(1.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  @media (max-width: 480px) {
+    .ctaButton {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #31411f;
+      color: white;
+      font-weight: 600;
+      border: none;
+      padding: 6px 40px;
+      border-radius: 20px;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 15px;
+    flex-wrap: nowrap;
+  white-space: nowrap;
+      /* Smooth animation */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  }

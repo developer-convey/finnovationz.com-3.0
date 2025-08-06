@@ -164,17 +164,19 @@ function ValueInvesting() {
           <HomeBanner data={courseData.banner} />
         </Suspense>
       </div>
+      
       <JoinCourse data={courseData.course} paymentdata={courseData.banner} />
-      <Syllabus
-        data={courseData.syllabus_for_foundation_course}
-        slideData={1}
-        customTitle="Syllabus for Foundation Course"
-      />
       <Syllabus
         data={courseData.syllabus_for_fundamental_analysis_2}
         slideData={1}
         customTitle="Syllabus for Fundamental Analysis 3.0"
       />
+      <Syllabus
+        data={courseData.syllabus_for_foundation_course}
+        slideData={1}
+        customTitle="Syllabus for Foundation Course"
+      />
+      
 
       <Syllabus
         data={courseData.syllabus_for_Mutual_Fund}

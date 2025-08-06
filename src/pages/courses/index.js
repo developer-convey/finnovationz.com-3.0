@@ -7,7 +7,7 @@ import Meta from "@/component/Meta";
 import CourseSlider from "@/app/components/CourseSlider";
 import Chooseus from "@/app/components/Chooseus";
 import ScrollModal from "./ScrollModal.js";
-
+import Popup from '../../component/popup'
 import ClientTstimonial from "@/app/components/CliClientTstimonialCourses";
 import Community from "@/app/components/Community";
 import Certification from "@/app/components/Certification";
@@ -342,6 +342,7 @@ function Home() {
       {/* <Fakefooter/> */}
 
       <ScrollModal/>
+     
       {/* <Modal showModal={showModal} setShowModal={setShowModal} /> */}
     </>
   );

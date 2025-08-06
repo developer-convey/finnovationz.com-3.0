@@ -6,6 +6,7 @@ import Head from "next/head";
 import Meta from "@/component/Meta";
 import SeoData from './SeoData.json';
 import DiwaliOffSlider from "@/app/components/coursetopofferslider";
+import Popup from '@/component/popup'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -103,7 +104,7 @@ function MyApp({ Component, pageProps }) {
         ></iframe>
       </noscript>
       {/* End Google Tag Manager (noscript) */}
-
+<Popup/>
       <Component {...pageProps} />
 
       {/* Conditionally load external widget script */}

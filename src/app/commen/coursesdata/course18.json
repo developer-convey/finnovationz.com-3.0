@@ -1,11 +1,11 @@
 {
   "banner": {
-    "heading": "FinnovationZ’s Share Market Course      ",
+    "heading": "The Complete Course on Fundamental Analysis 3.0     ",
     "text": "(Only Practical Course on Indian Share Market)      ",
     "duration": "20+ hrs ",
     "lessons": "31+ lessons",
     "rating": 4.8,
-    "actual_pricing": "₹3,495 (Onwards)",
+    "actual_pricing": "3,297    (Onwards)",
     "mrp_price": "₹19,999 ",
     "btnUrl": "#pricing",
     "btnText": "Register Now",
@@ -90,24 +90,24 @@
     ],
   "syllabus_for_fundamental_analysis_2": [
       {
-        "title": "New Ep1 - The MBS Framework: The Secret of Riches",
+        "title": "New Ep1 - New investment opportunities with AI",
         "duration": "30 mins",
         "subtitle": "This is the Multi-Bagger Secret Framework, which every successful investor uses and this is what we have been using to find stocks for us and our client.",
-        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/8Aug2024/The+MBS+Framework-+The+Secret+of+Riches+copy.webp",
+        "thumbnail": "/ep1.webp",
         "alt": "Introduction to Fundamental Analysis Course 2.o"
       },
       {
-        "title": "New Ep2 - Finding Scam-Free Small & Mid-Cap Companies",
+        "title": "New Ep2 - Analyse companies NOT in hours but in minutes",
         "duration": "30 mins",
         "subtitle": "It is an open truth that small and mid-cap companies suffer from scams, but they have more potential to be a multi-bagger.",
-        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/8Aug2024/Finding+Scam-Free+Small+%26+Mid-Cap+Companies+copy.webp",
+        "thumbnail": "/ep2.webp",
         "alt": "Introduction to Fundamental Analysis Course 2.o"
       },
       {
-        "title": "New Ep3 - Finding Hidden Stocks With High Growth Potential",
+        "title": "New Ep3 - Using AI to analyse big data in stock market",
         "duration": "30 mins",
         "subtitle": "Stocks that are not in news or media outlets, but have the potential to boost in the near future. We learn to find such companies here.",
-        "thumbnail": "https://websitevideos2020.s3.ap-south-1.amazonaws.com/finnovationz/8Aug2024/Finding+Hidden+Stocks+With+High+Growth+Potential+.webp",
+        "thumbnail": "/ep3.webp",
         "alt": "Introduction to Fundamental Analysis Course 2.o"
       },
       {
@@ -358,7 +358,7 @@
   },
   
       "pricing": {
-        "comboPrice": "₹3,495",
+        "comboPrice": "3,297",
         "comboMRP": "₹8,999",
         "label": "Single Offer          ",
 
