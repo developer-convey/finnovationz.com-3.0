@@ -10,8 +10,9 @@ const PopupModal = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [show, setShow] = useState(false);
+  const [hasClosed, setHasClosed] = useState(false);
 
-  // List of exact or static paths where popup should NOT appear
+  // List of static paths where popup should not appear
   const hiddenRoutes = [
     "/fmvmsession/thankyou",
     "/fmvmsession",
@@ -26,27 +27,43 @@ const PopupModal = () => {
     "/courses/offer-marathi"
   ];
 
-  // Only dynamic quiz/[id] should be hidden — use RegExp
+  // Hide on dynamic quiz pages like /quiz/123
   const isDynamicQuiz = /^\/quiz\/[^/]+$/.test(pathname);
-
   const isHidden = hiddenRoutes.includes(pathname) || isDynamicQuiz;
 
+  // Reset on route change
   useEffect(() => {
-    if (!isHidden) {
-      const timer = setTimeout(() => {
+    setHasClosed(false);
+    setShow(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (isHidden) return;
+
+    const handleMouseLeave = (e) => {
+      // Only trigger if mouse moves out toward top of page
+      if (e.clientY <= 0 && !show && !hasClosed) {
         setShow(true);
-      }, 2000);
+      }
+    };
 
-      return () => clearTimeout(timer);
-    }
-  }, [router.asPath, isHidden]);
+    document.addEventListener("mouseleave", handleMouseLeave);
 
-  if (!show || isHidden) return null;
+    return () => {
+      document.removeEventListener("mouseleave", handleMouseLeave);
+    };
+  }, [show, hasClosed, isHidden]);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    setHasClosed(true);
+  };
+
   const handleNavigate = () => {
     router.push("/courses/combo/#pricing");
   };
+
+  if (!show || isHidden || hasClosed) return null;
 
   return (
     <div className={styles.modalOverlay}>
