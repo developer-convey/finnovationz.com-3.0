@@ -53,19 +53,19 @@
   .mobile-offer-wrapper {
     background-color: 
     #ecdcc3;
-    padding: 16px 12px;
+    padding: 5px 12px;
     text-align: center;
   }
   
   .mobile-banner-image {
     width: 100%;
-    max-width: 320px;
+    max-width: 150px;
     height: auto;
     margin: 0 auto;
   }
   
   .mobile-banner-text {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -104,7 +104,7 @@
     transform-origin: 80% center;
     top: 70%;
     left: 18%;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   
   /* Animations */
