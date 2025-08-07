@@ -114,7 +114,7 @@ function Quizpage() {
           }}
         />
     </Head>
-      <Header />
+      {/* <Header /> */}
       {/* Conditionally render LoginScreen based on isShow and isPrivate status */}
       {isShow && isPrivate !== 2 && (
         <LoginScreen

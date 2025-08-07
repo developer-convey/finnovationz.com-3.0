@@ -1,4 +1,3 @@
-// components/PopupModal.js
 "use client";
 
 import { useEffect, useState } from "react";
@@ -10,64 +9,67 @@ import { usePathname } from "next/navigation";
 const PopupModal = () => {
   const router = useRouter();
   const pathname = usePathname();
-
   const [show, setShow] = useState(false);
 
+  // List of exact or static paths where popup should NOT appear
   const hiddenRoutes = [
     "/fmvmsession/thankyou",
+    "/fmvmsession",
+    "/courses/fmvm-modelling",
+    "/courses/fmvm-modelling/thankyou",
+    "/courses/fmvm",
+    "/courses/fmvm/thankyou",
+    "/courses/combo-of-foundation-course-for-beginners-and-fundamental-analysis-2.O",
+    "/courses/big-combo",
     "/courses/combo",
-   
-    "/courses/combo/#pricing",
-    "/fmvmsession  "
+    "/courses/offer",
+    "/courses/offer-marathi"
   ];
+
+  // Only dynamic quiz/[id] should be hidden — use RegExp
+  const isDynamicQuiz = /^\/quiz\/[^/]+$/.test(pathname);
+
+  const isHidden = hiddenRoutes.includes(pathname) || isDynamicQuiz;
+
   useEffect(() => {
-    const currentPath = router.asPath;
-  
-    const isHidden = hiddenRoutes.some((route) => currentPath.startsWith(route));
-  
     if (!isHidden) {
       const timer = setTimeout(() => {
         setShow(true);
       }, 2000);
-  
+
       return () => clearTimeout(timer);
     }
-  }, [router.asPath]);
-  
-  const handleClose = () => setShow(false);
+  }, [router.asPath, isHidden]);
 
+  if (!show || isHidden) return null;
+
+  const handleClose = () => setShow(false);
   const handleNavigate = () => {
     router.push("/courses/combo/#pricing");
   };
-  const isHidden = hiddenRoutes.includes(pathname);
-
-  if (!show) return null;
 
   return (
-    <div className={`${styles.modalOverlay} ${isHidden ? "d-none" : ""}`}>
+    <div className={styles.modalOverlay}>
       <div className={styles.modalContainer}>
         <img src="/topsticky.webp" alt="Offer Popup" className={styles.popupImage} />
 
-        {/* Close button */}
         <button className={styles.closeButton} onClick={handleClose}>
           &times;
         </button>
 
-        {/* CTA button on image */}
         <button
-  className={styles.ctaButton}
-  onClick={handleNavigate}
-  style={{
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "4px", // Optional spacing between icon and text
-  }}
->
-  <FaHandPointRight />
-  View Offer
-</button>
-
+          className={styles.ctaButton}
+          onClick={handleNavigate}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "4px",
+          }}
+        >
+          <FaHandPointRight />
+          View Offer
+        </button>
       </div>
     </div>
   );

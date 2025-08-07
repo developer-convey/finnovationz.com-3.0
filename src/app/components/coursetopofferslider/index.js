@@ -17,6 +17,17 @@ const DiwaliOffSlider = ({ redirectUrl = "/", targetId = "" }) => {
     "/courses/offer-marathi",
     "/courses/offer-marathi/thankyou",
     "/courses/combo/thankyou",
+    "/fmvmsession/thankyou",
+    "/fmvmsession",
+    "/courses/fmvm-modelling",
+    "/courses/fmvm-modelling/thankyou",
+    "/courses/fmvm",
+    "/courses/fmvm/thankyou",
+    "/courses/combo-of-foundation-course-for-beginners-and-fundamental-analysis-2.O",
+    "/courses/big-combo",
+    "/courses/combo",
+    "/courses/offer",
+    "/courses/offer-marathi"
   ];
 
   const isHidden = hideOnPages.includes(pathname);

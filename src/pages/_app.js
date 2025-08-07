@@ -114,7 +114,10 @@ function MyApp({ Component, pageProps }) {
         "courses/fmvm",
         "courses/fmvm/thankyou",
         "courses/combo-of-foundation-course-for-beginners-and-fundamental-analysis-2.O",
-        "courses/big-combo", "courses/combo", "courses/offer", "courses/offer-marathi"
+        "courses/big-combo",
+         "courses/combo", 
+         "courses/offer", 
+         "courses/offer-marathi"
       ].includes(dynamicPageName) && (
           <script
             type="text/javascript"
